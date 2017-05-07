@@ -90,7 +90,7 @@ public class Agent<T> implements Runnable {
 	 * Intrinsic update functionality that is to be implemented in the
 	 * framework.
 	 */
-	private synchronized void update() {
+	public synchronized void update() {
 		
 		// it executes the update logic specified by the
 		// user of the framework

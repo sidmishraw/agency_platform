@@ -81,17 +81,37 @@ public class TestDriver {
 			agent3.halt();
 		});
 		
+		Agent<String> agent4 = InstanceFactory.getInstance(AgentFactory.class).makeAgent("Agent 4", String.class);
+		
+		agent4.setUpdateLogic(() -> {
+			
+			System.out.println(agent4.getDescription());
+			
+			agent4.getFacilitator().getPartner(agent4);
+			
+			System.out.println(agent4 + "partner = " + agent4.getPartner());
+			
+			agent4.getFacilitator().dropPartner(agent4);
+			
+			System.out.println(agent4 + "partner = " + agent4.getPartner());
+			
+			agent4.halt();
+		});
+		
 		try {
 			
 			world.add(agent1);
 			world.add(agent2);
 			world.add(agent3);
+			world.add(agent4);
 		} catch (Exception e) {
 			
 			e.printStackTrace();
 		}
 		
-		new Thread(world).start();
+		// world.setMultiThread(false);
+		
+		world.start();
 	}
 	
 }

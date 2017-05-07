@@ -11,6 +11,7 @@ package edu.sjsu.sidmishraw.agencyplatform.core;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.stream.Collectors;
 
 import edu.sjsu.sidmishraw.agencyplatform.exceptions.IllegalAgentException;
 
@@ -62,7 +63,7 @@ public class Facilitator<T> implements Runnable {
 			// if the agent hasn't been assigned to anyone else
 			// assign the wannabePartner to the agent and vice-versa
 			if (null != wannabePartnerAgent && !agent.equals(wannabePartnerAgent)
-					&& null == wannabePartnerAgent.getPartner()) {
+					&& null == wannabePartnerAgent.getPartner() && !wannabePartnerAgent.getDead()) {
 				
 				// set the partners
 				wannabePartnerAgent.setPartner(agent);
@@ -72,10 +73,16 @@ public class Facilitator<T> implements Runnable {
 				this.bookedAgents.add(wannabePartnerAgent);
 				this.bookedAgents.add(agent);
 				
+				// remove the agent from freeagent since it is no
+				// longer free and is booked
+				this.freeAgents.remove(agent);
+				
 				break;
-			} else if (wannabePartnerAgent.equals(agent) && null == wannabePartnerAgent.getPartner()) {
+			} else if ((wannabePartnerAgent.equals(agent) && null == wannabePartnerAgent.getPartner())
+					|| wannabePartnerAgent.getDead()) {
 				
 				// put back the polled agent to the free pool
+				// by default all dead agents are kept in the free queue
 				this.freeAgents.add(wannabePartnerAgent);
 			}
 			
@@ -112,6 +119,11 @@ public class Facilitator<T> implements Runnable {
 		prevPartner.dropPartner();
 		agent.dropPartner();
 		
+		// remove them from the bookedagents
+		this.bookedAgents.remove(agent);
+		this.bookedAgents.remove(prevPartner);
+		
+		// add them to the free agents queue
 		this.freeAgents.add(agent);
 		this.freeAgents.add(prevPartner);
 		
@@ -146,7 +158,86 @@ public class Facilitator<T> implements Runnable {
 	 */
 	public void start() {
 		
-		System.out.println("Facilatator started");
+		if (this.freeAgents.size() > 0) {
+			
+			if (multiThread) {
+				
+				new Thread(this).start();
+			} else {
+				
+				this.singleThreadedRun();
+			}
+		} else {
+			
+			System.out.println("No agents to facilitate.");
+		}
+	}
+	
+	/**
+	 * Single threaded run for the Facilitator
+	 */
+	private void singleThreadedRun() {
+		
+		System.out.println("Single threaded running facilitator");
+		
+		List<Agent<T>> deadAgents = new ArrayList<>();
+		
+		int size = this.freeAgents.size() + this.bookedAgents.size();
+		
+		// the facilitator is going to be alive till all the agents are alive
+		// run till facilitator is alive, i.e all the agents are dead, both
+		// booked and free agents
+		while (size != deadAgents.size()) {
+			
+			for (Agent<T> agent : this.freeAgents.stream().filter(agent -> !agent.getDead())
+					.collect(Collectors.toList())) {
+				
+				agent.update();
+				
+				if (agent.getDead()) {
+					
+					deadAgents.add(agent);
+					
+					System.out.println("The agent " + agent.getDescription() + " is dead! T_T");
+				}
+			}
+			
+			for (Agent<T> agent : this.bookedAgents.stream().filter(agent -> !agent.getDead())
+					.collect(Collectors.toList())) {
+				
+				agent.update();
+				
+				if (agent.getDead()) {
+					
+					deadAgents.add(agent);
+					
+					System.out.println("The agent " + agent.getDescription() + " is dead! T_T");
+				}
+			}
+		}
+	}
+	
+	// /**
+	// *
+	// * @param agent
+	// * @param message
+	// */
+	// public void send(Agent<T> agent, Message<T> message) {
+	//
+	// System.out.println(
+	// "Sending a message to agent: " + agent.toString() + "with content: " +
+	// message.getContent().toString());
+	// }
+	
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Runnable#run()
+	 */
+	@Override
+	public void run() {
+		
+		System.out.println("Facilatator started --- Multithreaded mode");
 		
 		// I use the list of running threads to call join upon the
 		// agents
@@ -171,35 +262,6 @@ public class Facilitator<T> implements Runnable {
 				e.printStackTrace();
 			}
 		});
-	}
-	
-	// /**
-	// *
-	// * @param agent
-	// * @param message
-	// */
-	// public void send(Agent<T> agent, Message<T> message) {
-	//
-	// System.out.println(
-	// "Sending a message to agent: " + agent.toString() + "with content: " +
-	// message.getContent().toString());
-	// }
-	
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Runnable#run()
-	 */
-	@Override
-	public void run() {
-		
-		if (this.freeAgents.size() > 0) {
-			
-			this.start();
-		} else {
-			
-			System.out.println("No agents to facilitate.");
-		}
 	}
 	
 	/**
