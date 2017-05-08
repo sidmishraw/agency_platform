@@ -255,7 +255,7 @@ public final class Agent<T> implements Runnable {
 	/**
 	 * Sets the partner to null, i.e, drops the partner.
 	 */
-	public void dropPartner() {
+	public void dropMyPartner() {
 		
 		this.partner = null;
 	}

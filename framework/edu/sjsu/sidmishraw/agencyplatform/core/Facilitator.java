@@ -40,6 +40,8 @@ public final class Facilitator<T> implements Runnable {
 	 * The parameter map holding all the necessary extra parameters specific to
 	 * the facilitator instance
 	 * This is the approach taken to tackle the problem of subclassing
+	 * For eg : Lets say I have a facilitator named `Ultradome`
+	 * 
 	 * So when I say, `Ultradome is a facilitator`, it should mean Ultradome is
 	 * an instance
 	 * of Facilitator instead of subclass
@@ -82,6 +84,9 @@ public final class Facilitator<T> implements Runnable {
 	 */
 	public final synchronized void getPartner(Agent<T> agent) {
 		
+		System.out.println("Free agents before hooking up by " + agent.getDescription() + " = " + this.freeAgents.size()
+				+ " Booked agents before hooking up by " + agent.getDescription() + " = " + this.bookedAgents.size());
+		
 		if (null != agent.getPartner() || null == agent) {
 			
 			return;
@@ -103,7 +108,7 @@ public final class Facilitator<T> implements Runnable {
 			// assign the wannabePartner to the agent and vice-versa
 			if (null != wannabePartnerAgent && !agent.equals(wannabePartnerAgent)
 					&& null == wannabePartnerAgent.getPartner() && !wannabePartnerAgent.getDead()
-					&& wannabePartnerAgent.isReady()) {
+					&& wannabePartnerAgent.isReady() && !agent.getDead()) {
 				
 				// set the partners
 				wannabePartnerAgent.setPartner(agent);
@@ -117,6 +122,9 @@ public final class Facilitator<T> implements Runnable {
 				// longer free and is booked
 				this.freeAgents.remove(agent);
 				
+				System.out.println("Agents " + agent.getDescription() + " and  " + wannabePartnerAgent.getDescription()
+						+ " have hooked up.");
+				
 				break;
 			} else if (null != wannabePartnerAgent
 					&& ((wannabePartnerAgent.equals(agent) && null == wannabePartnerAgent.getPartner())
@@ -125,11 +133,17 @@ public final class Facilitator<T> implements Runnable {
 				// put back the polled agent to the free pool
 				// by default all dead agents are kept in the free queue
 				this.freeAgents.add(wannabePartnerAgent);
+			} else {
+				
+				System.out.println("No free agents at the moment");
 			}
 			
 			// decrement the retrylimit
 			retriesLeft--;
 		}
+		
+		System.out.println("Free agents after hookingup by " + agent.getDescription() + " = " + this.freeAgents.size()
+				+ " Booked agents before hooking up by " + agent.getDescription() + " = " + this.bookedAgents.size());
 	}
 	
 	/**
@@ -159,8 +173,8 @@ public final class Facilitator<T> implements Runnable {
 		
 		// otherwise, dropped the partners and added both to the free
 		// agent queue
-		prevPartner.dropPartner();
-		agent.dropPartner();
+		prevPartner.dropMyPartner();
+		agent.dropMyPartner();
 		
 		// remove them from the bookedagents
 		this.bookedAgents.remove(agent);
@@ -383,5 +397,36 @@ public final class Facilitator<T> implements Runnable {
 	public <K> void setParameter(String parameterName, K parameterValue) {
 		
 		this.parametersMap.put(parameterName, parameterValue);
+	}
+	
+	/**
+	 * Tells the requesting agent if it is alone (only agent that is not dead)
+	 * 
+	 * @param agent
+	 * 
+	 * @return boolean
+	 */
+	public boolean amIAlone(Agent<T> requester) {
+		
+		if (requester.getDead()) {
+			
+			return false;
+		}
+		
+		List<Agent<T>> deadAgents = new ArrayList<>();
+		
+		this.freeAgents.stream().filter(agent -> agent.getDead()).forEach(agent -> deadAgents.add(agent));
+		this.bookedAgents.stream().filter(agent -> agent.getDead()).forEach(agent -> deadAgents.add(agent));
+		
+		int totalAgentsSize = this.freeAgents.size() + this.bookedAgents.size();
+		
+		// if I am the only one remaining
+		if (deadAgents.size() == totalAgentsSize - 1) {
+			
+			return true;
+		} else {
+			
+			return false;
+		}
 	}
 }

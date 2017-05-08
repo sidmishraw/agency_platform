@@ -83,7 +83,7 @@ public class UltradomeFactory {
 				
 				Strike strike = new Strike(
 						"A molten sword strike from hell with " + HELL_SWORD + ", deals dmg of both IRON and FIRE!",
-						0.25F * random.nextInt(10), WeaponStrikeType.FIRE, WeaponStrikeType.IRON);
+						0.25F * (random.nextInt(10) + 1), WeaponStrikeType.FIRE, WeaponStrikeType.IRON);
 				
 				return strike;
 			}));
@@ -111,7 +111,7 @@ public class UltradomeFactory {
 				Random random = new Random();
 				
 				Strike strike = new Strike("Posion Magic with " + POISON_WAND + " earns a bad reputation!",
-						0.30F * random.nextInt(10), WeaponStrikeType.MAGIC, WeaponStrikeType.CHEMICAL);
+						0.30F * (random.nextInt(10) + 1), WeaponStrikeType.MAGIC, WeaponStrikeType.CHEMICAL);
 				
 				return strike;
 			}));
@@ -124,7 +124,8 @@ public class UltradomeFactory {
 				
 				Random random = new Random();
 				
-				Strike strike = new Strike(POISON + " BOMB!", 0.50F * random.nextInt(10), WeaponStrikeType.CHEMICAL);
+				Strike strike = new Strike(POISON + " BOMB!", 0.50F * (random.nextInt(10) + 1),
+						WeaponStrikeType.CHEMICAL);
 				
 				return strike;
 			}));
@@ -267,8 +268,8 @@ public class UltradomeFactory {
 		ConcurrentLinkedQueue<MedicineBowl> medicineBowls = new ConcurrentLinkedQueue<>();
 		
 		// creating 6 medicine bowls
-		final int MEDICINE_BOWL25_COUNT = 3;
-		final int MEDICINE_BOWL40_COUNT = 3;
+		final int MEDICINE_BOWL25_COUNT = 1;
+		final int MEDICINE_BOWL40_COUNT = 0;
 		
 		// heals 25 HP
 		for (int i = 0; i < MEDICINE_BOWL25_COUNT; i++) {

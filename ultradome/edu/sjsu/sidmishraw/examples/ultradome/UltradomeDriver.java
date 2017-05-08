@@ -72,6 +72,7 @@ public class UltradomeDriver {
 		
 		for (int counter = 1; counter <= MAX_GLADIATORS; counter++) {
 			
+			// Making a gladiator for Ultradome
 			Agent<Strike> gladiator = agentFactory.makeAgent("Gladiator#" + String.valueOf(counter), Strike.class,
 					new Parameter("health", MAX_HP),
 					new Parameter("weapon", ultradomeFactory.makeWeapon("Baby Sword", WeaponType.SWORD, () -> {
@@ -81,6 +82,7 @@ public class UltradomeDriver {
 						return strike;
 					})), new Parameter("shield", new Shield()));
 			
+			// adding Gladiator behaviors
 			agentFactory.addBehaviors(gladiator, new Parameter("defend", new BiConsumer<Agent<Strike>, Strike>() {
 				
 				/**
@@ -95,20 +97,28 @@ public class UltradomeDriver {
 				@Override
 				public void accept(Agent<Strike> me, Strike t) {
 					
-					Shield shield = me.getParameter(Shield.class, "shield");
-					
-					// ask the shield to reduce the strike strength before
-					// dealing dmg
-					Strike newStrike = shield.reduceStrike(t);
-					
-					float health = me.getParameter(Float.class, "health");
-					
-					// reduce the health according to the modified dmg, taking
-					// into account all the shield skins etc
-					health = health - (newStrike.getStrength() * health);
-					
-					// set the new health of the gladiator
-					me.setParameter("health", health);
+					synchronized (me) {
+						
+						Shield shield = me.getParameter(Shield.class, "shield");
+						
+						// ask the shield to reduce the strike strength before
+						// dealing dmg
+						Strike newStrike = shield.reduceStrike(t);
+						
+						float health = me.getParameter(Float.class, "health");
+						
+						// reduce the health according to the modified dmg,
+						// taking
+						// into account all the shield skins etc
+						health = health - (newStrike.getStrength() * health);
+						
+						// set the new health of the gladiator
+						me.setParameter("health", health);
+						
+						System.out.println("Gladiator: " + me.getDescription() + " has defended against "
+								+ newStrike.getDescription() + " of strength = " + newStrike.getStrength()
+								+ ", new HP = " + me.getParameter(Float.class, "health"));
+					}
 				}
 			}), new Parameter("strengthenShield", new BiConsumer<Agent<Strike>, ShieldSkin>() {
 				
@@ -119,8 +129,14 @@ public class UltradomeDriver {
 				@Override
 				public void accept(Agent<Strike> me, ShieldSkin shieldSkin) {
 					
-					Shield shield = me.getParameter(Shield.class, "shield");
-					shield.addSkin(shieldSkin);
+					synchronized (me) {
+						
+						Shield shield = me.getParameter(Shield.class, "shield");
+						shield.addSkin(shieldSkin);
+						
+						System.out
+								.println("Gladiator: " + me.getDescription() + " has added a new skin to the shield!");
+					}
 				}
 			}), new Parameter("interact", new BiConsumer<Agent<Strike>, Agent<Strike>>() {
 				
@@ -131,11 +147,15 @@ public class UltradomeDriver {
 				@Override
 				public void accept(Agent<Strike> me, Agent<Strike> myPartner) {
 					
-					// don't know why myPartner was included into the mix, but
-					// whatever
-					Strike myStrike = me.getParameter(Weapon.class, "weapon").makeStrike();
-					
-					me.getFacilitator().sendMessage(me, new Message<>(myStrike));
+					synchronized (me) {
+						
+						// don't know why myPartner was included into the mix,
+						// but
+						// whatever
+						Strike myStrike = me.getParameter(Weapon.class, "weapon").makeStrike();
+						
+						me.getFacilitator().sendMessage(me, new Message<>(myStrike));
+					}
 				}
 			}));
 			
@@ -146,122 +166,197 @@ public class UltradomeDriver {
 			 */
 			gladiator.setUpdateLogic(() -> {
 				
-				if (gladiator.getParameter(Float.class, "health") == 0.0F) {
+				// synchronized on gladiator as the monitor
+				synchronized (gladiator) {
 					
-					gladiator.halt();
-				}
-				
-				// update health according to all the strikes received till date
-				Message<Strike> msg = null;
-				
-				float currentHealth = gladiator.getParameter(Float.class, "health");
-				
-				while (null != (msg = gladiator.getMailbox().poll())) {
-					
-					if (null != msg) {
+					// check if the gladiator is below 0 HP or the only one left
+					// alive
+					if (gladiator.getParameter(Float.class, "health") < 0.0F
+							|| gladiator.getFacilitator().amIAlone(gladiator)) {
 						
-						Strike strike = msg.getContent();
-						
-						currentHealth = currentHealth - (strike.getStrength() * currentHealth);
-						
-						if (currentHealth == 0.0F) {
+						if (gladiator.getFacilitator().amIAlone(gladiator)) {
 							
-							gladiator.halt();
+							System.out.println("Gladiator: " + gladiator.getDescription()
+									+ " declares himself as the WINNER from hell $_$!");
+						}
+						
+						gladiator.halt();
+						
+						System.out.println("Gladiator: " + gladiator.getDescription() + " has died with final HP of = "
+								+ gladiator.getParameter(Float.class, "health"));
+						
+						return;
+					}
+					
+					// update health according to all the strikes received till
+					// date
+					Message<Strike> msg = null;
+					
+					while (null != (msg = gladiator.getMailbox().poll())) {
+						
+						if (null != msg) {
+							
+							Strike strike = msg.getContent();
+							
+							// defend against all the incoming strikes
+							((BiConsumer<Agent<Strike>, Strike>) gladiator.getParameter(BiConsumer.class, "defend"))
+									.accept(gladiator, strike);
+							
+							float currentHealth = gladiator.getParameter(Float.class, "health");
+							
+							if (currentHealth < 0.0F || gladiator.getFacilitator().amIAlone(gladiator)) {
+								
+								if (gladiator.getFacilitator().amIAlone(gladiator)) {
+									
+									System.out.println("Gladiator: " + gladiator.getDescription()
+											+ " declares himself as the WINNER from hell $_$!");
+								}
+								
+								gladiator.halt();
+								
+								System.out.println(
+										"Gladiator: " + gladiator.getDescription() + " has died with final HP of = "
+												+ gladiator.getParameter(Float.class, "health"));
+								
+								return;
+							}
 						}
 					}
-				}
-				
-				gladiator.setParameter("health", currentHealth);
-				
-				/**
-				 * During a gladiator's update cycle a random integer called
-				 * luck is generated.
-				 * 
-				 * If 0 <= luck < 10, then the gladiator
-				 * drinks enough medicine to restore his health to 100% or until
-				 * the medicine is gone.
-				 * 
-				 * If 10 <= luck < 20, then the gladiator
-				 * selects a new weapon, assuming any weapons remain.
-				 * 
-				 * If 20 < luck <= 30, then the gladiator selects a shield skin
-				 * and strengthens his shield with it, assuming any shield skins
-				 * remain.
-				 * 
-				 * Otherwise, the gladiator attacks (interacts with)
-				 * another gladiator.
-				 */
-				Random random = new Random();
-				
-				int luck = random.nextInt(40);
-				
-				System.out.println("Gladitor: " + gladiator.getDescription() + " has luck = " + luck);
-				
-				if (0 <= luck && luck < 10) {
 					
-					// drink medicine
-					MedicineBowl medicine = ((ConcurrentLinkedQueue<MedicineBowl>) gladiator.getFacilitator()
-							.getParameter(ConcurrentLinkedQueue.class, UltradomeFactory.MEDICINE_BOWLS)).poll();
+					/**
+					 * During a gladiator's update cycle a random integer called
+					 * luck is generated.
+					 * 
+					 * If 0 <= luck < 10, then the gladiator
+					 * drinks enough medicine to restore his health to 100% or
+					 * until
+					 * the medicine is gone.
+					 * 
+					 * If 10 <= luck < 20, then the gladiator
+					 * selects a new weapon, assuming any weapons remain.
+					 * 
+					 * If 20 < luck <= 30, then the gladiator selects a shield
+					 * skin
+					 * and strengthens his shield with it, assuming any shield
+					 * skins
+					 * remain.
+					 * 
+					 * Otherwise, the gladiator attacks (interacts with)
+					 * another gladiator.
+					 */
+					Random random = new Random();
 					
-					if (null != medicine) {
+					int luck = random.nextInt(40);
+					
+					System.out.println("Gladitor: " + gladiator.getDescription() + " has luck = " + luck);
+					
+					if (0 <= luck && luck < 10) {
 						
-						while (medicine.getContents() != 0 && gladiator.getParameter(Float.class, "health") < MAX_HP) {
+						// drink medicine
+						MedicineBowl medicine = ((ConcurrentLinkedQueue<MedicineBowl>) gladiator.getFacilitator()
+								.getParameter(ConcurrentLinkedQueue.class, UltradomeFactory.MEDICINE_BOWLS)).poll();
+						
+						if (null != medicine) {
 							
-							System.out.println("Healing gladiator: " + gladiator.getDescription() + "by +1");
+							while (medicine.getContents() != 0
+									&& gladiator.getParameter(Float.class, "health") < MAX_HP) {
+								
+								System.out.println("Healing gladiator: " + gladiator.getDescription() + " by +1");
+								
+								float incrementHealth = gladiator.getParameter(Float.class, "health") + 1;
+								
+								// so that the incrementHealth never goes over
+								// MAX_HP
+								if (incrementHealth > MAX_HP) {
+									
+									incrementHealth = MAX_HP;
+								}
+								
+								gladiator.setParameter("health", incrementHealth);
+								medicine.consume();
+							}
 							
-							float incrementHealth = gladiator.getParameter(Float.class, "health") + 1;
-							gladiator.setParameter("health", incrementHealth);
-							medicine.consume();
+							if (medicine.getContents() > 0) {
+								
+								// if the medicine bowl still has contents, add
+								// it
+								// to
+								// the world
+								((ConcurrentLinkedQueue<MedicineBowl>) gladiator.getFacilitator()
+										.getParameter(ConcurrentLinkedQueue.class, UltradomeFactory.MEDICINE_BOWLS))
+												.add(medicine);
+								
+								System.out.println("Medicine bowl now has " + medicine.getContents()
+										+ " charges remaining and is reclaimed by Ultradome from Gladiator: "
+										+ gladiator.getDescription());
+							} else {
+								
+								System.out.println("Medicine bowl is empty");
+							}
 						}
+					} else if (10 <= luck && luck < 20) {
+						
+						Weapon weapon = ((ConcurrentLinkedQueue<Weapon>) gladiator.getFacilitator()
+								.getParameter(ConcurrentLinkedQueue.class, UltradomeFactory.WEAPONS)).poll();
+						
+						if (null != weapon) {
+							
+							Weapon oldWeapon = gladiator.getParameter(Weapon.class, "weapon");
+							
+							System.out.println("Switched weapon for gladiator: " + gladiator.getDescription() + " to "
+									+ weapon.getName() + " from " + oldWeapon.getName());
+							
+							gladiator.setParameter("weapon", weapon);
+							
+							gladiator.getFacilitator()
+									.getParameter(ConcurrentLinkedQueue.class, UltradomeFactory.WEAPONS).add(oldWeapon);
+							
+							System.out.println(oldWeapon.getName() + " has been reclaimed by Ultradome from Gladiator: "
+									+ gladiator.getDescription());
+						}
+					} else if (20 <= luck && luck <= 30) {
+						
+						ShieldSkin shieldSkin = ((ConcurrentLinkedQueue<ShieldSkin>) gladiator.getFacilitator()
+								.getParameter(ConcurrentLinkedQueue.class, UltradomeFactory.SHIELD_SKINS)).poll();
+						
+						if (null != shieldSkin) {
+							
+							System.out.println("Applying new shield skin for gladiator: " + gladiator.getDescription());
+							
+							((BiConsumer<Agent<Strike>, ShieldSkin>) gladiator.getParameter(BiConsumer.class,
+									"strengthenShield")).accept(gladiator, shieldSkin);
+							
+							System.out.println("Now gladiator: " + gladiator.getDescription() + " has "
+									+ gladiator.getParameter(Shield.class, "shield").nbrSkins()
+									+ " skins on his shield!");
+						}
+					} else {
+						
+						// interact with other agents
+						// in short --- Fight!
+						// request a partner
+						gladiator.getFacilitator().getPartner(gladiator);
+						
+						System.out.println("Gladiator: " + gladiator.getDescription() + " is gonna fight with "
+								+ ((gladiator.getPartner() == null) ? "No one"
+										: gladiator.getPartner().getDescription()));
+						
+						// send a strike to the partner
+						if (null != gladiator.getPartner()) {
+							
+							((BiConsumer<Agent<Strike>, Agent<Strike>>) gladiator.getParameter(BiConsumer.class,
+									"interact")).accept(gladiator, gladiator.getPartner());
+							
+							if (null != gladiator.getPartner()) {
+								
+								System.out.println("Strike sent by " + gladiator.getDescription()
+										+ ", so dropping the partner " + gladiator.getPartner().getDescription());
+							}
+						}
+						
+						// ask the facilitator to drop your partner
+						gladiator.getFacilitator().dropPartner(gladiator);
 					}
-				} else if (10 <= luck && luck < 20) {
-					
-					Weapon weapon = ((ConcurrentLinkedQueue<Weapon>) gladiator.getFacilitator()
-							.getParameter(ConcurrentLinkedQueue.class, UltradomeFactory.WEAPONS)).poll();
-					
-					if (null != weapon) {
-						
-						Weapon oldWeapon = gladiator.getParameter(Weapon.class, "weapon");
-						
-						System.out.println("Swtiched weapon to for gladiator: " + gladiator.getDescription() + " to "
-								+ weapon.getName() + " from " + oldWeapon.getName());
-						
-						gladiator.setParameter("weapon", weapon);
-					}
-				} else if (20 <= luck && luck <= 30) {
-					
-					ShieldSkin shieldSkin = ((ConcurrentLinkedQueue<ShieldSkin>) gladiator.getFacilitator()
-							.getParameter(ConcurrentLinkedQueue.class, UltradomeFactory.SHIELD_SKINS)).poll();
-					
-					if (null != shieldSkin) {
-						
-						System.out.println("Applying new shield skin for gladiator: " + gladiator.getDescription());
-						
-						gladiator.getParameter(Shield.class, "shield").addSkin(shieldSkin);
-						
-						System.out.println("Now gladiator: " + gladiator.getDescription() + " has "
-								+ gladiator.getParameter(Shield.class, "shield").nbrSkins() + " skins on his shield!");
-					}
-				} else {
-					
-					// interact with other agents
-					// in short --- Fight!
-					// request a partner
-					gladiator.getFacilitator().getPartner(gladiator);
-					
-					System.out.println("Gladiator: " + gladiator.getDescription() + " is gonna fight with "
-							+ ((gladiator.getPartner() == null) ? "Noone" : gladiator.getPartner().getDescription()));
-					
-					// send a strike to the partner
-					if (null != gladiator.getPartner()) {
-						
-						((BiConsumer<Agent<Strike>, Agent<Strike>>) gladiator.getParameter(BiConsumer.class,
-								"interact")).accept(gladiator, gladiator.getPartner());
-					}
-					
-					System.out.println("Strike sent, dropping the partner");
-					
-					gladiator.dropPartner();
 				}
 			});
 			
@@ -273,6 +368,7 @@ public class UltradomeDriver {
 			}
 		}
 		
+		// default is multithreaded
 		// ultradome.setMultiThread(false);
 		
 		ultradome.start();

@@ -52,14 +52,15 @@ public class Shield {
 	 */
 	public Strike reduceStrike(Strike incomingStrike) {
 		
-		System.out.println("Incoming strike " + incomingStrike);
+		float oldStrength = incomingStrike.getStrength();
 		
 		for (ShieldSkin skin : skins) {
 			
 			incomingStrike = skin.getReduceStrike().apply(incomingStrike);
 		}
 		
-		System.out.println("Outgoing strike " + incomingStrike);
+		System.out.println("Reduced strike " + incomingStrike.getDescription() + " from strength = " + oldStrength
+				+ " to strength =" + incomingStrike.getStrength());
 		
 		return incomingStrike;
 	}
