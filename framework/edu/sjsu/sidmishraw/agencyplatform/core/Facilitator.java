@@ -10,7 +10,9 @@ package edu.sjsu.sidmishraw.agencyplatform.core;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.ConcurrentMap;
 import java.util.stream.Collectors;
 
 import edu.sjsu.sidmishraw.agencyplatform.exceptions.IllegalAgentException;
@@ -21,7 +23,7 @@ import edu.sjsu.sidmishraw.agencyplatform.exceptions.IllegalAgentException;
  *         Qualified Name: edu.sjsu.sidmishraw.agencyplatform.core.Facilitator
  *
  */
-public class Facilitator<T> implements Runnable {
+public final class Facilitator<T> implements Runnable {
 	
 	// the flag that says if the facilitator is single threaded
 	// or multi-threaded
@@ -35,14 +37,50 @@ public class Facilitator<T> implements Runnable {
 	private volatile ConcurrentLinkedQueue<Agent<T>>	bookedAgents	= new ConcurrentLinkedQueue<>();
 	
 	/**
+	 * The parameter map holding all the necessary extra parameters specific to
+	 * the facilitator instance
+	 * This is the approach taken to tackle the problem of subclassing
+	 * So when I say, `Ultradome is a facilitator`, it should mean Ultradome is
+	 * an instance
+	 * of Facilitator instead of subclass
+	 */
+	private volatile ConcurrentMap<String, Object>		parametersMap	= new ConcurrentHashMap<>();
+	
+	/**
+	 * Facilitates the messaging between agents
+	 * 
+	 * @param agent
+	 * @param message
+	 */
+	public final synchronized void sendMessage(Agent<T> agent, Message<T> message) {
+		
+		Agent<T> partnerAgent = agent.getPartner();
+		
+		if (null == partnerAgent || partnerAgent.getDead()) {
+			
+			System.out.println("No eligible partner to send a message, try again after hooking up");
+			return;
+		}
+		
+		if (null != message) {
+			
+			System.out.println("Added a message from " + agent.getDescription() + " to " + partnerAgent.getDescription()
+					+ "'s mailbox.");
+			
+			partnerAgent.getMailbox().add(message);
+		}
+	}
+	
+	/**
 	 * Returns the partner for the agent that calls this method on the
 	 * Facilitator.
 	 * 
 	 * @param agent
+	 *            -- the requesting agent
 	 * 
 	 * @return {@link Agent}: The partner agent
 	 */
-	public synchronized void getPartner(Agent<T> agent) {
+	public final synchronized void getPartner(Agent<T> agent) {
 		
 		if (null != agent.getPartner() || null == agent) {
 			
@@ -60,10 +98,12 @@ public class Facilitator<T> implements Runnable {
 			
 			// if the wannabeAgent is not null
 			// and it is the not the same agent as requesting agent
+			// and it is not dead and is ready for a partner
 			// if the agent hasn't been assigned to anyone else
 			// assign the wannabePartner to the agent and vice-versa
 			if (null != wannabePartnerAgent && !agent.equals(wannabePartnerAgent)
-					&& null == wannabePartnerAgent.getPartner() && !wannabePartnerAgent.getDead()) {
+					&& null == wannabePartnerAgent.getPartner() && !wannabePartnerAgent.getDead()
+					&& wannabePartnerAgent.isReady()) {
 				
 				// set the partners
 				wannabePartnerAgent.setPartner(agent);
@@ -78,8 +118,9 @@ public class Facilitator<T> implements Runnable {
 				this.freeAgents.remove(agent);
 				
 				break;
-			} else if ((wannabePartnerAgent.equals(agent) && null == wannabePartnerAgent.getPartner())
-					|| wannabePartnerAgent.getDead()) {
+			} else if (null != wannabePartnerAgent
+					&& ((wannabePartnerAgent.equals(agent) && null == wannabePartnerAgent.getPartner())
+							|| wannabePartnerAgent.getDead() || !wannabePartnerAgent.isReady())) {
 				
 				// put back the polled agent to the free pool
 				// by default all dead agents are kept in the free queue
@@ -96,8 +137,10 @@ public class Facilitator<T> implements Runnable {
 	 * 
 	 * @param agent
 	 */
-	public synchronized void dropPartner(Agent<T> agent) {
-		System.out.println("Free agents before drop by " + agent.getDescription() + " = " + this.freeAgents.size());
+	public final synchronized void dropPartner(Agent<T> agent) {
+		
+		System.out.println("Free agents before drop by " + agent.getDescription() + " = " + this.freeAgents.size()
+				+ " Booked agents before drop by " + agent.getDescription() + " = " + this.bookedAgents.size());
 		
 		Agent<T> prevPartner = agent.getPartner();
 		
@@ -127,7 +170,8 @@ public class Facilitator<T> implements Runnable {
 		this.freeAgents.add(agent);
 		this.freeAgents.add(prevPartner);
 		
-		System.out.println("Free agents after drop by " + agent.getDescription() + " = " + this.freeAgents.size());
+		System.out.println("Free agents after drop by " + agent.getDescription() + " = " + this.freeAgents.size()
+				+ " Booked agents after drop by " + agent.getDescription() + " = " + this.bookedAgents.size());
 	}
 	
 	/**
@@ -140,7 +184,7 @@ public class Facilitator<T> implements Runnable {
 	 * 
 	 * @throws IllegalAgentException
 	 */
-	public void add(Agent<T> agent) throws IllegalAgentException {
+	public final void add(Agent<T> agent) throws IllegalAgentException {
 		
 		if (null == agent) {
 			
@@ -156,7 +200,7 @@ public class Facilitator<T> implements Runnable {
 	/**
 	 * Starts the facilitating world.
 	 */
-	public void start() {
+	public final void start() {
 		
 		if (this.freeAgents.size() > 0) {
 			
@@ -176,7 +220,7 @@ public class Facilitator<T> implements Runnable {
 	/**
 	 * Single threaded run for the Facilitator
 	 */
-	private void singleThreadedRun() {
+	private final void singleThreadedRun() {
 		
 		System.out.println("Single threaded running facilitator");
 		
@@ -313,5 +357,31 @@ public class Facilitator<T> implements Runnable {
 	public void setBookedAgents(ConcurrentLinkedQueue<Agent<T>> bookedAgents) {
 		
 		this.bookedAgents = bookedAgents;
+	}
+	
+	/**
+	 * It allows the facilitator to store additional data specific to the
+	 * facilitator.
+	 * The parameters are added by the user of the framework
+	 * 
+	 * @param clasz
+	 * @param parameterName
+	 * @return parameter value K
+	 */
+	@SuppressWarnings("unchecked")
+	public <K> K getParameter(Class<K> clasZ, String parameterName) {
+		
+		return (K) this.parametersMap.get(parameterName);
+	}
+	
+	/**
+	 * Sets the additional information needed by the facilitator instance
+	 * 
+	 * @param parameterName
+	 * @param parameterValue
+	 */
+	public <K> void setParameter(String parameterName, K parameterValue) {
+		
+		this.parametersMap.put(parameterName, parameterValue);
 	}
 }

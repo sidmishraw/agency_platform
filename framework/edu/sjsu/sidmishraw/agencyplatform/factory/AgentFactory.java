@@ -55,4 +55,44 @@ public class AgentFactory {
 		
 		return agent;
 	}
+	
+	/**
+	 * Used to add behaviors for the agent
+	 * Behaviors are functional interfaces : for eg:
+	 * Adding a defend behavior to the gladiator agent, the functional interface
+	 * is a BiConsumer from java.utils.function
+	 * 
+	 * agentFactory.addBehaviors(gladiator, new Parameter("defend", new
+	 * BiConsumer<Agent<Strike>, Strike>() {
+	 * 
+	 * @Override
+	 * 			public void accept(Agent<Strike> me, Strike t) {
+	 * 
+	 *           Shield shield = me.getParameter(Shield.class, "shield");
+	 * 
+	 *           // ask the shield to reduce the strike strenght before
+	 *           // dealing dmg
+	 *           Strike newStrike = shield.reduceStrike(t);
+	 * 
+	 *           float health = me.getParameter(Float.class, "health");
+	 * 
+	 *           // reduce the health according to the modified dmg, taking
+	 *           // into account all the shield skins etc
+	 *           health = health - (newStrike.getStrength() * health);
+	 * 
+	 *           // set the new health of the gladiator
+	 *           me.setParameter("health", health);
+	 *           }
+	 *           }));
+	 * 
+	 * @param agent
+	 * @param behaviors
+	 */
+	public <T> void addBehaviors(Agent<T> agent, Parameter... behaviors) {
+		
+		Arrays.asList(behaviors).forEach(behavior -> {
+			
+			agent.setParameter(behavior.parameterName, behavior.value);
+		});
+	}
 }

@@ -8,9 +8,9 @@
  */
 package edu.sjsu.sidmishraw.agencyplatform.core;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.ConcurrentMap;
 
 import edu.sjsu.sidmishraw.agencyplatform.service.UpdateLogic;
 
@@ -20,13 +20,16 @@ import edu.sjsu.sidmishraw.agencyplatform.service.UpdateLogic;
  *         Qualified Name: edu.sjsu.sidmishraw.agencyplatform.core.Agent
  *
  */
-public class Agent<T> implements Runnable {
+public final class Agent<T> implements Runnable {
 	
 	// id of the agent in the world
 	private int											id;
 	
 	// flag that tells if the agent is dead
 	private Boolean										dead			= false;
+	
+	// a flag used by the agent to show that it is not ready for a partner
+	private boolean										ready			= true;
 	
 	// description of the agent
 	private String										description		= "";
@@ -39,7 +42,7 @@ public class Agent<T> implements Runnable {
 	// a map holding all the parameters of the agent, this is my approach to
 	// have only one agent class and customize the agent through just the update
 	// logic
-	private Map<String, Object>							parametersMap	= new HashMap<>();
+	private volatile ConcurrentMap<String, Object>		parametersMap	= new ConcurrentHashMap<>();
 	
 	// initial update logic is a DO-NOTHING anonymous object
 	// the non-sugarcoated implementation of the lambda
@@ -90,7 +93,7 @@ public class Agent<T> implements Runnable {
 	 * Intrinsic update functionality that is to be implemented in the
 	 * framework.
 	 */
-	public synchronized void update() {
+	public final synchronized void update() {
 		
 		// it executes the update logic specified by the
 		// user of the framework
@@ -255,6 +258,21 @@ public class Agent<T> implements Runnable {
 	public void dropPartner() {
 		
 		this.partner = null;
+	}
+	
+	/**
+	 * @return the ready
+	 */
+	public boolean isReady() {
+		return this.ready;
+	}
+	
+	/**
+	 * @param ready
+	 *            the ready to set
+	 */
+	public void setReady(boolean ready) {
+		this.ready = ready;
 	}
 	
 	/*
