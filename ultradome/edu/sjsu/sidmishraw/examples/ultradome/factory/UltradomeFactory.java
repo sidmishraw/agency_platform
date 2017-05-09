@@ -136,7 +136,11 @@ public class UltradomeFactory {
 			
 			weapons.add(this.makeWeapon(FLAME_THROWER, WeaponType.FLAME_THROWER, () -> {
 				
-				Strike strike = new Strike(FLAME_THROWER + ", Burn baby BURNNN!", 0.80F, WeaponStrikeType.CHEMICAL);
+				Random random = new Random();
+				
+				// strikes between - 0.8F x {5, 6, ... 10} = 4, ... 8 HP
+				Strike strike = new Strike(FLAME_THROWER + ", Burn baby BURNNN!", 0.80F * (random.nextInt(6) + 5),
+						WeaponStrikeType.CHEMICAL);
 				
 				return strike;
 			}));
@@ -269,7 +273,7 @@ public class UltradomeFactory {
 		
 		// creating 6 medicine bowls
 		final int MEDICINE_BOWL25_COUNT = 1;
-		final int MEDICINE_BOWL40_COUNT = 0;
+		final int MEDICINE_BOWL40_COUNT = 1;
 		
 		// heals 25 HP
 		for (int i = 0; i < MEDICINE_BOWL25_COUNT; i++) {
