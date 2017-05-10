@@ -46,7 +46,7 @@ public class Shield {
 	 * each skin reduces the strike by some percentage defined by the
 	 * shieldskins'
 	 * reduceStrike logic.
-	 * 
+	 *
 	 * @param incomingStrike
 	 * @return Strike
 	 */
@@ -59,7 +59,8 @@ public class Shield {
 			incomingStrike = skin.getReduceStrike().apply(incomingStrike);
 		}
 		
-		System.out.println("Reduced strike " + incomingStrike.getDescription() + " from strength = " + oldStrength
+		System.out.println("Reduced strike " + incomingStrike.getDescription() +
+				" from strength = " + oldStrength
 				+ " to strength =" + incomingStrike.getStrength());
 		
 		return incomingStrike;
@@ -67,7 +68,7 @@ public class Shield {
 	
 	/**
 	 * Add a new skin to the skins on the shield
-	 * 
+	 *
 	 * @param newSkin
 	 */
 	public void addSkin(ShieldSkin newSkin) {
@@ -85,7 +86,7 @@ public class Shield {
 	
 	/**
 	 * Returns the number of skins currently on the shield of the gladiator
-	 * 
+	 *
 	 * @return int
 	 */
 	public int nbrSkins() {

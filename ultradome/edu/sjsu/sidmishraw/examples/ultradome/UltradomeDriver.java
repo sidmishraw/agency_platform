@@ -132,6 +132,7 @@ public class UltradomeDriver {
 					synchronized (me) {
 						
 						Shield shield = me.getParameter(Shield.class, "shield");
+						
 						shield.addSkin(shieldSkin);
 						
 						System.out

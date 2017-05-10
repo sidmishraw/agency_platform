@@ -19,6 +19,9 @@ import java.util.function.Function;
  */
 public class ShieldSkin {
 	
+	// thinking of having this as a wrapper to reduce code
+	// bloat on screen and keep it readable
+	
 	// by default a shield skin will reduce the incoming strength by 1%
 	private static final float			DEFAULT_REDUCTION	= 0.01F;
 	
