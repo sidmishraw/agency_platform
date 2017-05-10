@@ -30,11 +30,15 @@ public class ShieldSkin {
 	// this should be customized how it impacts the incoming strike
 	private Function<Strike, Strike>	reduceStrike		= (incomingStrike) -> {
 																
-																float incomingStrength = incomingStrike.getStrength();
+																float incomingStrength = incomingStrike
+																		.getStrength();
 																float outgoingStrength = incomingStrength
-																		- ((DEFAULT_REDUCTION) * incomingStrength);
+																		- ((DEFAULT_REDUCTION)
+																				* incomingStrength);
 																
-																incomingStrike.setStrength(outgoingStrength);
+																incomingStrike
+																		.setStrength(
+																				outgoingStrength);
 																
 																return incomingStrike;
 															};

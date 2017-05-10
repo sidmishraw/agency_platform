@@ -48,7 +48,8 @@ public class UltradomeFactory {
 	 * @param strikeStrategy
 	 * @return Weapon
 	 */
-	public Weapon makeWeapon(String weaponName, WeaponType type, StrikeStrategy strikeStrategy) {
+	public Weapon makeWeapon(String weaponName, WeaponType type,
+			StrikeStrategy strikeStrategy) {
 		
 		Weapon weapon = new Weapon(weaponName, type);
 		
@@ -82,8 +83,10 @@ public class UltradomeFactory {
 				Random random = new Random();
 				
 				Strike strike = new Strike(
-						"A molten sword strike from hell with " + HELL_SWORD + ", deals dmg of both IRON and FIRE!",
-						0.25F * (random.nextInt(10) + 1), WeaponStrikeType.FIRE, WeaponStrikeType.IRON);
+						"A molten sword strike from hell with " + HELL_SWORD
+								+ ", deals dmg of both IRON and FIRE!",
+						0.25F * (random.nextInt(10) + 1), WeaponStrikeType.FIRE,
+						WeaponStrikeType.IRON);
 				
 				return strike;
 			}));
@@ -96,7 +99,8 @@ public class UltradomeFactory {
 				
 				Random random = new Random();
 				
-				Strike strike = new Strike("Magic from " + MAGIC_WAND + " behold!", 0.28F * random.nextInt(10),
+				Strike strike = new Strike("Magic from " + MAGIC_WAND + " behold!",
+						0.28F * random.nextInt(10),
 						WeaponStrikeType.MAGIC);
 				
 				return strike;
@@ -110,8 +114,10 @@ public class UltradomeFactory {
 				
 				Random random = new Random();
 				
-				Strike strike = new Strike("Posion Magic with " + POISON_WAND + " earns a bad reputation!",
-						0.30F * (random.nextInt(10) + 1), WeaponStrikeType.MAGIC, WeaponStrikeType.CHEMICAL);
+				Strike strike = new Strike(
+						"Posion Magic with " + POISON_WAND + " earns a bad reputation!",
+						0.30F * (random.nextInt(10) + 1), WeaponStrikeType.MAGIC,
+						WeaponStrikeType.CHEMICAL);
 				
 				return strike;
 			}));
@@ -124,7 +130,8 @@ public class UltradomeFactory {
 				
 				Random random = new Random();
 				
-				Strike strike = new Strike(POISON + " BOMB!", 0.50F * (random.nextInt(10) + 1),
+				Strike strike = new Strike(POISON + " BOMB!",
+						0.50F * (random.nextInt(10) + 1),
 						WeaponStrikeType.CHEMICAL);
 				
 				return strike;
@@ -139,7 +146,8 @@ public class UltradomeFactory {
 				Random random = new Random();
 				
 				// strikes between - 0.8F x {5, 6, ... 10} = 4, ... 8 HP
-				Strike strike = new Strike(FLAME_THROWER + ", Burn baby BURNNN!", 0.80F * (random.nextInt(6) + 5),
+				Strike strike = new Strike(FLAME_THROWER + ", Burn baby BURNNN!",
+						0.80F * (random.nextInt(6) + 5),
 						WeaponStrikeType.CHEMICAL);
 				
 				return strike;
@@ -181,7 +189,8 @@ public class UltradomeFactory {
 					
 					float oldStrength = incomingStrike.getStrength();
 					
-					float newStrength = oldStrength - (oldStrength * (0.085F * randomint));
+					float newStrength = oldStrength
+							- (oldStrength * (0.085F * randomint));
 					
 					incomingStrike.setStrength(newStrength);
 				}
@@ -204,7 +213,8 @@ public class UltradomeFactory {
 					
 					float oldStrength = incomingStrike.getStrength();
 					
-					float newStrength = oldStrength - (oldStrength * (0.076F * randomint));
+					float newStrength = oldStrength
+							- (oldStrength * (0.076F * randomint));
 					
 					incomingStrike.setStrength(newStrength);
 				}
@@ -227,7 +237,8 @@ public class UltradomeFactory {
 					
 					float oldStrength = incomingStrike.getStrength();
 					
-					float newStrength = oldStrength - (oldStrength * (0.0789F * randomint));
+					float newStrength = oldStrength
+							- (oldStrength * (0.0789F * randomint));
 					
 					incomingStrike.setStrength(newStrength);
 				}
@@ -250,7 +261,8 @@ public class UltradomeFactory {
 					
 					float oldStrength = incomingStrike.getStrength();
 					
-					float newStrength = oldStrength - (oldStrength * (0.0825F * randomint));
+					float newStrength = oldStrength
+							- (oldStrength * (0.0825F * randomint));
 					
 					incomingStrike.setStrength(newStrength);
 				}
