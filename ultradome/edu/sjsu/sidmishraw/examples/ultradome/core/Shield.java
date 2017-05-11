@@ -8,7 +8,7 @@
  */
 package edu.sjsu.sidmishraw.examples.ultradome.core;
 
-import java.util.Stack;
+import java.util.function.Function;
 
 /**
  * @author sidmishraw
@@ -23,23 +23,41 @@ public class Shield {
 	// so the newest is the one to be removed first
 	// traditional LIFO styled structure, hence making
 	// a stack.
-	private Stack<ShieldSkin> skins = new Stack<>();
+	// private Stack<ShieldSkin> skins = new Stack<>();
 	
-	/**
-	 * Sets the default skin on the shield when created
-	 */
+	// a donothing strategy initially present in the Shield
+	private Function<Strike, Strike>	reduceStrikeStrategy	= (incomingStrike) -> {
+																	
+																	return incomingStrike;
+																};
+	
+	// count of the number of skins
+	// starts out a 0 beacuse of the default skin is added when the
+	// shield is created
+	private int							skinCount				= 0;
+	
+	// /**
+	// * Sets the default skin on the shield when created
+	// */
 	public Shield() {
 		
-		this.skins.push(new ShieldSkin(null));
-	}
-	
-	/**
-	 * @param skins
-	 */
-	public Shield(Stack<ShieldSkin> skins) {
+		// this.skins.push(new ShieldSkin(null));
 		
-		this.skins = skins;
+		/**
+		 * The default reduceStrikeStrategy will reduce the strike of all types
+		 * by 1%
+		 */
+		// adding the default 1% reduction skin
+		this.addSkin(new ShieldSkin(null));
 	}
+	//
+	// /**
+	// * @param skins
+	// */
+	// public Shield(Stack<ShieldSkin> skins) {
+	//
+	// this.skins = skins;
+	// }
 	
 	/**
 	 * The incoming strike needs to pass through all the skins on the shield,
@@ -54,10 +72,13 @@ public class Shield {
 		
 		float oldStrength = incomingStrike.getStrength();
 		
-		for (ShieldSkin skin : skins) {
-			
-			incomingStrike = skin.getReduceStrike().apply(incomingStrike);
-		}
+		// for (ShieldSkin skin : skins) {
+		//
+		// incomingStrike = skin.getReduceStrike().apply(incomingStrike);
+		// }
+		
+		// a composition of all the attack strategies
+		incomingStrike = this.reduceStrikeStrategy.apply(incomingStrike);
 		
 		System.out.println("Reduced strike " + incomingStrike.getDescription() +
 				" from strength = " + oldStrength
@@ -73,16 +94,21 @@ public class Shield {
 	 */
 	public void addSkin(ShieldSkin newSkin) {
 		
-		this.skins.push(newSkin);
+		// this.skins.push(newSkin);
+		// this will add in the new layer of skin
+		this.reduceStrikeStrategy = this.reduceStrikeStrategy
+				.compose(newSkin.getReduceStrike());
+		
+		this.skinCount++;
 	}
 	
 	/**
 	 * Removes the topmost layer of the shield
 	 */
-	public void removeSkin() {
-		
-		this.skins.pop();
-	}
+	// public void removeSkin() {
+	//
+	// this.skins.pop();
+	// }
 	
 	/**
 	 * Returns the number of skins currently on the shield of the gladiator
@@ -91,6 +117,7 @@ public class Shield {
 	 */
 	public int nbrSkins() {
 		
-		return this.skins.size();
+		// return this.skins.size();
+		return this.skinCount;
 	}
 }

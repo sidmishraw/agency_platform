@@ -23,8 +23,6 @@ public class ShieldSkin {
 	// bloat on screen and keep it readable
 	
 	// by default a shield skin will reduce the incoming strength by 1%
-	private static final float			DEFAULT_REDUCTION	= 0.01F;
-	
 	// reduce strike is the custom implementation for the shield skin
 	// comes with a default 1% reduction
 	// this should be customized how it impacts the incoming strike
@@ -40,8 +38,17 @@ public class ShieldSkin {
 																		.setStrength(
 																				outgoingStrength);
 																
+																System.out
+																		.println(
+																				"Default ShieldSkin has acted: reduced from oldStrength = "
+																						+ incomingStrength
+																						+ " to newStrength = "
+																						+ outgoingStrength);
+																
 																return incomingStrike;
 															};
+	
+	public static final float			DEFAULT_REDUCTION	= 0.01F;
 	
 	/**
 	 * 
@@ -59,6 +66,7 @@ public class ShieldSkin {
 	 * @return the reduceStrike
 	 */
 	public Function<Strike, Strike> getReduceStrike() {
+		
 		return this.reduceStrike;
 	}
 	
@@ -67,6 +75,7 @@ public class ShieldSkin {
 	 *            the reduceStrike to set
 	 */
 	public void setReduceStrike(Function<Strike, Strike> reduceStrike) {
+		
 		this.reduceStrike = reduceStrike;
 	}
 	
@@ -74,6 +83,7 @@ public class ShieldSkin {
 	 * @return the defaultReduction
 	 */
 	public static float getDefaultReduction() {
+		
 		return DEFAULT_REDUCTION;
 	}
 }

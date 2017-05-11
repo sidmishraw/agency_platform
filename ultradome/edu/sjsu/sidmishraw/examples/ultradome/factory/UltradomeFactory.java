@@ -193,6 +193,9 @@ public class UltradomeFactory {
 							- (oldStrength * (0.085F * randomint));
 					
 					incomingStrike.setStrength(newStrength);
+					
+					System.out.println("IRON SHIELD HAS REDUCED STRIKE from "
+							+ oldStrength + " to " + newStrength);
 				}
 				
 				return incomingStrike;
@@ -217,6 +220,9 @@ public class UltradomeFactory {
 							- (oldStrength * (0.076F * randomint));
 					
 					incomingStrike.setStrength(newStrength);
+					
+					System.out.println("CHEMICAL SHIELD HAS REDUCED STRIKE from "
+							+ oldStrength + " to " + newStrength);
 				}
 				
 				return incomingStrike;
@@ -241,6 +247,9 @@ public class UltradomeFactory {
 							- (oldStrength * (0.0789F * randomint));
 					
 					incomingStrike.setStrength(newStrength);
+					
+					System.out.println("MAGIC SHIELD HAS REDUCED STRIKE from "
+							+ oldStrength + " to " + newStrength);
 				}
 				
 				return incomingStrike;
@@ -265,6 +274,9 @@ public class UltradomeFactory {
 							- (oldStrength * (0.0825F * randomint));
 					
 					incomingStrike.setStrength(newStrength);
+					
+					System.out.println("FIRE SHIELD HAS REDUCED STRIKE from "
+							+ oldStrength + " to " + newStrength);
 				}
 				
 				return incomingStrike;
