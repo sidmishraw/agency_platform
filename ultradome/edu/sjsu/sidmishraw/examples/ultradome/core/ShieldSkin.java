@@ -26,29 +26,29 @@ public class ShieldSkin {
 	// reduce strike is the custom implementation for the shield skin
 	// comes with a default 1% reduction
 	// this should be customized how it impacts the incoming strike
-	private Function<Strike, Strike>	reduceStrike		= (incomingStrike) -> {
-																
-																float incomingStrength = incomingStrike
-																		.getStrength();
-																float outgoingStrength = incomingStrength
-																		- ((DEFAULT_REDUCTION)
-																				* incomingStrength);
-																
-																incomingStrike
-																		.setStrength(
-																				outgoingStrength);
-																
-																System.out
-																		.println(
-																				"Default ShieldSkin has acted: reduced from oldStrength = "
-																						+ incomingStrength
-																						+ " to newStrength = "
-																						+ outgoingStrength);
-																
-																return incomingStrike;
-															};
+	private Function<Strike, Strike>	reduceStrike			= (incomingStrike) -> {
+																												
+																												float incomingStrength = incomingStrike
+																														.getStrength();
+																												float outgoingStrength = incomingStrength
+																														- ((DEFAULT_REDUCTION)
+																																* incomingStrength);
+																												
+																												incomingStrike
+																														.setStrength(
+																																outgoingStrength);
+																												
+																												System.out
+																														.println(
+																																"Default ShieldSkin has acted: reduced from oldStrength = "
+																																		+ incomingStrength
+																																		+ " to newStrength = "
+																																		+ outgoingStrength);
+																												
+																												return incomingStrike;
+																											};
 	
-	public static final float			DEFAULT_REDUCTION	= 0.01F;
+	public static final float					DEFAULT_REDUCTION	= 0.01F;
 	
 	/**
 	 * 
@@ -72,7 +72,7 @@ public class ShieldSkin {
 	
 	/**
 	 * @param reduceStrike
-	 *            the reduceStrike to set
+	 *          the reduceStrike to set
 	 */
 	public void setReduceStrike(Function<Strike, Strike> reduceStrike) {
 		
