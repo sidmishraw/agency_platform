@@ -31,7 +31,7 @@ The message is just a generic wrapper containing contents.
 
 I basically wanted to test the extent to which the pluggable pattern can be used without increasing the complexity while keeping the programming simple.
 From the look of this codebase, I believe the application programmer doesn't need to worry too much about subclassing but can instead think of adding features as new parameters to the agent/facilitator objects.
-This does give the programmer some expressive power at the cost of complexity. But I have seen this pattern of using annonymous object definitons being passed around in android programs, so I believe this should be acceptable.
+This does give the programmer some expressive power at the cost of increased complexity. But I have seen this pattern of using annonymous object definitions being passed around in android programs, so I believe this should be acceptable.
 
 Furthermore, introduction of functional programming concepts like composition, does improve the expressibility of the scenario (just my opinion, I'd say a decorator function would be even better and the composition achieves just that).
 
