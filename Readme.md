@@ -72,9 +72,9 @@ Furthermore, introduction of functional programming concepts like composition, d
 * The application drivers are PrisonersDilemmaDriver.java for Prisoners Dilemma simulation and UltradomeDriver.java for Ultradome simulation respectively.
 
 The project comes with 4 output files:
- `op_multithreaded.txt` -- This file has the output of the UltradomeDriver.java (Ultradome simulation running in multi threaded mode) piped into it.
- `op_singlethreaded.txt` -- This file has the output of the UltradomeDriver.java (Ultradome simulation running in single threaded mode) piped into it.
- `pd_multithreaded.txt` -- This file has the output of the PrisonersDilemmaDriver.java (PrisonersDilemma simulation running in multi threaded mode) piped into it.
- `pd_singlethreaded.txt` -- This file has the output of the PrisonersDilemmaDriver.java (PrisonersDilemma simulation running in single threaded mode) piped into it.
+*  `op_multithreaded.txt` -- This file has the output of the UltradomeDriver.java (Ultradome simulation running in multi threaded mode) piped into it.
+*  `op_singlethreaded.txt` -- This file has the output of the UltradomeDriver.java (Ultradome simulation running in single threaded mode) piped into it.
+*  `pd_multithreaded.txt` -- This file has the output of the PrisonersDilemmaDriver.java (PrisonersDilemma simulation running in multi threaded mode) piped into it.
+*  `pd_singlethreaded.txt` -- This file has the output of the PrisonersDilemmaDriver.java (PrisonersDilemma simulation running in single threaded mode) piped into it.
  
 #### Note: this project needs Java8+ because it heavily relies on lambdas and other Java8+ features. 
