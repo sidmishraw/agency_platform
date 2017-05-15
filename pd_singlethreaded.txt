@@ -1,0 +1,2798 @@
+Single threaded running facilitator
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 20
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Retry for Prisoner#1 #4
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 20 remaining
+Prisoner: Prisoner#2 has 20 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 0 newScore = 0
+	Prisoner#2: oldScore = 0 newScore = 5
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 19
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 19 remaining
+Prisoner: Prisoner#3 has 20 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 5 newScore = 10
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 19
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 19 remaining
+Prisoner: Prisoner#4 has 20 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 0 newScore = 5
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 19
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 19 remaining
+Prisoner: Prisoner#5 has 20 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 5 newScore = 8
+	Prisoner#5: oldScore = 0 newScore = 3
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 19
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 19 remaining
+Prisoner: Prisoner#6 has 20 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 3 newScore = 4
+	Prisoner#6: oldScore = 0 newScore = 1
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 19
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 19 remaining
+Prisoner: Prisoner#7 has 20 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 1 newScore = 2
+	Prisoner#7: oldScore = 0 newScore = 1
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 19
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 19 remaining
+Prisoner: Prisoner#8 has 20 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 1 newScore = 2
+	Prisoner#8: oldScore = 0 newScore = 1
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 19
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 19 remaining
+Prisoner: Prisoner#9 has 20 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 1 newScore = 6
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 19
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 19 remaining
+Prisoner: Prisoner#10 has 20 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 0 newScore = 5
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 19
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 19 remaining
+Prisoner: Prisoner#11 has 20 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 5 newScore = 6
+	Prisoner#11: oldScore = 0 newScore = 1
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 19
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 19 remaining
+Prisoner: Prisoner#12 has 20 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 1 newScore = 2
+	Prisoner#12: oldScore = 0 newScore = 1
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 19
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 19 remaining
+Prisoner: Prisoner#13 has 20 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 1 newScore = 4
+	Prisoner#13: oldScore = 0 newScore = 3
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 19
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 19 remaining
+Prisoner: Prisoner#14 has 20 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 3 newScore = 4
+	Prisoner#14: oldScore = 0 newScore = 1
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 19
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 19 remaining
+Prisoner: Prisoner#15 has 20 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 1 newScore = 4
+	Prisoner#15: oldScore = 0 newScore = 3
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 19
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 19 remaining
+Prisoner: Prisoner#16 has 20 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 3 newScore = 8
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 19
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 19 remaining
+Prisoner: Prisoner#1 has 19 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 0 newScore = 5
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 18
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Retry for Prisoner#2 #4
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 18 remaining
+Prisoner: Prisoner#3 has 18 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 10 newScore = 15
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 17
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 17 remaining
+Prisoner: Prisoner#4 has 18 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 8 newScore = 13
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 17
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 17 remaining
+Prisoner: Prisoner#5 has 18 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 13 newScore = 16
+	Prisoner#5: oldScore = 4 newScore = 7
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 17
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 17 remaining
+Prisoner: Prisoner#6 has 18 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 7 newScore = 8
+	Prisoner#6: oldScore = 2 newScore = 3
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 17
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 17 remaining
+Prisoner: Prisoner#7 has 18 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 3 newScore = 4
+	Prisoner#7: oldScore = 2 newScore = 3
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 17
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 17 remaining
+Prisoner: Prisoner#8 has 18 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 3 newScore = 4
+	Prisoner#8: oldScore = 6 newScore = 7
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 17
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 17 remaining
+Prisoner: Prisoner#9 has 18 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 7 newScore = 12
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 17
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 17 remaining
+Prisoner: Prisoner#10 has 18 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 6 newScore = 11
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 17
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 17 remaining
+Prisoner: Prisoner#11 has 18 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 11 newScore = 12
+	Prisoner#11: oldScore = 2 newScore = 3
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 17
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 17 remaining
+Prisoner: Prisoner#12 has 18 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 3 newScore = 4
+	Prisoner#12: oldScore = 4 newScore = 5
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 17
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 17 remaining
+Prisoner: Prisoner#13 has 18 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 5 newScore = 8
+	Prisoner#13: oldScore = 4 newScore = 7
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 17
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 17 remaining
+Prisoner: Prisoner#14 has 18 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 7 newScore = 8
+	Prisoner#14: oldScore = 4 newScore = 5
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 17
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 17 remaining
+Prisoner: Prisoner#15 has 18 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 5 newScore = 8
+	Prisoner#15: oldScore = 8 newScore = 11
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 17
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 17 remaining
+Prisoner: Prisoner#16 has 18 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 11 newScore = 16
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 17
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 17 remaining
+Prisoner: Prisoner#1 has 18 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 5 newScore = 10
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 17
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 17 remaining
+Prisoner: Prisoner#2 has 17 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 10 newScore = 10
+	Prisoner#2: oldScore = 15 newScore = 20
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 16
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Retry for Prisoner#3 #4
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 16 remaining
+Prisoner: Prisoner#4 has 16 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 16 newScore = 21
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 15
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 15 remaining
+Prisoner: Prisoner#5 has 16 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 21 newScore = 24
+	Prisoner#5: oldScore = 8 newScore = 11
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 15
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 15 remaining
+Prisoner: Prisoner#6 has 16 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 11 newScore = 12
+	Prisoner#6: oldScore = 4 newScore = 5
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 15
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 15 remaining
+Prisoner: Prisoner#7 has 16 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 5 newScore = 6
+	Prisoner#7: oldScore = 4 newScore = 5
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 15
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 15 remaining
+Prisoner: Prisoner#8 has 16 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 5 newScore = 6
+	Prisoner#8: oldScore = 12 newScore = 13
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 15
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 15 remaining
+Prisoner: Prisoner#9 has 16 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 13 newScore = 18
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 15
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 15 remaining
+Prisoner: Prisoner#10 has 16 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 12 newScore = 17
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 15
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 15 remaining
+Prisoner: Prisoner#11 has 16 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 17 newScore = 18
+	Prisoner#11: oldScore = 4 newScore = 5
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 15
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 15 remaining
+Prisoner: Prisoner#12 has 16 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 5 newScore = 6
+	Prisoner#12: oldScore = 8 newScore = 9
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 15
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 15 remaining
+Prisoner: Prisoner#13 has 16 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 9 newScore = 12
+	Prisoner#13: oldScore = 8 newScore = 11
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 15
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 15 remaining
+Prisoner: Prisoner#14 has 16 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 11 newScore = 12
+	Prisoner#14: oldScore = 8 newScore = 9
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 15
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 15 remaining
+Prisoner: Prisoner#15 has 16 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 9 newScore = 12
+	Prisoner#15: oldScore = 16 newScore = 19
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 15
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 15 remaining
+Prisoner: Prisoner#16 has 16 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 19 newScore = 24
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 15
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 15 remaining
+Prisoner: Prisoner#1 has 16 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 10 newScore = 15
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 15
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 15 remaining
+Prisoner: Prisoner#2 has 16 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 15 newScore = 15
+	Prisoner#2: oldScore = 20 newScore = 25
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 15
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 15 remaining
+Prisoner: Prisoner#3 has 15 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 25 newScore = 30
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 14
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Retry for Prisoner#4 #4
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 14 remaining
+Prisoner: Prisoner#5 has 14 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 24 newScore = 27
+	Prisoner#5: oldScore = 12 newScore = 15
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 13
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 13 remaining
+Prisoner: Prisoner#6 has 14 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 15 newScore = 16
+	Prisoner#6: oldScore = 6 newScore = 7
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 13
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 13 remaining
+Prisoner: Prisoner#7 has 14 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 7 newScore = 8
+	Prisoner#7: oldScore = 6 newScore = 7
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 13
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 13 remaining
+Prisoner: Prisoner#8 has 14 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 7 newScore = 8
+	Prisoner#8: oldScore = 18 newScore = 19
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 13
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 13 remaining
+Prisoner: Prisoner#9 has 14 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 19 newScore = 24
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 13
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 13 remaining
+Prisoner: Prisoner#10 has 14 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 18 newScore = 23
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 13
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 13 remaining
+Prisoner: Prisoner#11 has 14 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 23 newScore = 24
+	Prisoner#11: oldScore = 6 newScore = 7
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 13
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 13 remaining
+Prisoner: Prisoner#12 has 14 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 7 newScore = 8
+	Prisoner#12: oldScore = 12 newScore = 13
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 13
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 13 remaining
+Prisoner: Prisoner#13 has 14 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 13 newScore = 16
+	Prisoner#13: oldScore = 12 newScore = 15
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 13
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 13 remaining
+Prisoner: Prisoner#14 has 14 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 15 newScore = 16
+	Prisoner#14: oldScore = 12 newScore = 13
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 13
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 13 remaining
+Prisoner: Prisoner#15 has 14 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 13 newScore = 16
+	Prisoner#15: oldScore = 24 newScore = 27
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 13
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 13 remaining
+Prisoner: Prisoner#16 has 14 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 27 newScore = 32
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 13
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 13 remaining
+Prisoner: Prisoner#1 has 14 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 15 newScore = 20
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 13
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 13 remaining
+Prisoner: Prisoner#2 has 14 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 20 newScore = 20
+	Prisoner#2: oldScore = 30 newScore = 35
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 13
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 13 remaining
+Prisoner: Prisoner#3 has 14 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 35 newScore = 40
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 13
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 13 remaining
+Prisoner: Prisoner#4 has 13 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 27 newScore = 32
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 12
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Retry for Prisoner#5 #4
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 12 remaining
+Prisoner: Prisoner#6 has 12 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 16 newScore = 17
+	Prisoner#6: oldScore = 8 newScore = 9
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 11
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 11 remaining
+Prisoner: Prisoner#7 has 12 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 9 newScore = 10
+	Prisoner#7: oldScore = 8 newScore = 9
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 11
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 11 remaining
+Prisoner: Prisoner#8 has 12 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 9 newScore = 10
+	Prisoner#8: oldScore = 24 newScore = 25
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 11
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 11 remaining
+Prisoner: Prisoner#9 has 12 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 25 newScore = 30
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 11
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 11 remaining
+Prisoner: Prisoner#10 has 12 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 24 newScore = 29
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 11
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 11 remaining
+Prisoner: Prisoner#11 has 12 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 29 newScore = 30
+	Prisoner#11: oldScore = 8 newScore = 9
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 11
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 11 remaining
+Prisoner: Prisoner#12 has 12 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 9 newScore = 10
+	Prisoner#12: oldScore = 16 newScore = 17
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 11
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 11 remaining
+Prisoner: Prisoner#13 has 12 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 17 newScore = 20
+	Prisoner#13: oldScore = 16 newScore = 19
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 11
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 11 remaining
+Prisoner: Prisoner#14 has 12 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 19 newScore = 20
+	Prisoner#14: oldScore = 16 newScore = 17
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 11
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 11 remaining
+Prisoner: Prisoner#15 has 12 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 17 newScore = 20
+	Prisoner#15: oldScore = 32 newScore = 35
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 11
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 11 remaining
+Prisoner: Prisoner#16 has 12 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 35 newScore = 40
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 11
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 11 remaining
+Prisoner: Prisoner#1 has 12 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 20 newScore = 25
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 11
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 11 remaining
+Prisoner: Prisoner#2 has 12 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 25 newScore = 25
+	Prisoner#2: oldScore = 40 newScore = 45
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 11
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 11 remaining
+Prisoner: Prisoner#3 has 12 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 45 newScore = 50
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 11
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 11 remaining
+Prisoner: Prisoner#4 has 12 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 32 newScore = 37
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 11
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 11 remaining
+Prisoner: Prisoner#5 has 11 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 37 newScore = 40
+	Prisoner#5: oldScore = 17 newScore = 20
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 10
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Retry for Prisoner#6 #4
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 10 remaining
+Prisoner: Prisoner#7 has 10 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 10 newScore = 11
+	Prisoner#7: oldScore = 10 newScore = 11
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 9
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 9 remaining
+Prisoner: Prisoner#8 has 10 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 11 newScore = 12
+	Prisoner#8: oldScore = 30 newScore = 31
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 9
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 9 remaining
+Prisoner: Prisoner#9 has 10 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 31 newScore = 36
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 9
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 9 remaining
+Prisoner: Prisoner#10 has 10 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 30 newScore = 35
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 9
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 9 remaining
+Prisoner: Prisoner#11 has 10 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 35 newScore = 36
+	Prisoner#11: oldScore = 10 newScore = 11
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 9
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 9 remaining
+Prisoner: Prisoner#12 has 10 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 11 newScore = 12
+	Prisoner#12: oldScore = 20 newScore = 21
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 9
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 9 remaining
+Prisoner: Prisoner#13 has 10 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 21 newScore = 24
+	Prisoner#13: oldScore = 20 newScore = 23
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 9
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 9 remaining
+Prisoner: Prisoner#14 has 10 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 23 newScore = 24
+	Prisoner#14: oldScore = 20 newScore = 21
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 9
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 9 remaining
+Prisoner: Prisoner#15 has 10 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 21 newScore = 24
+	Prisoner#15: oldScore = 40 newScore = 43
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 9
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 9 remaining
+Prisoner: Prisoner#16 has 10 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 43 newScore = 48
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 9
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 9 remaining
+Prisoner: Prisoner#1 has 10 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 25 newScore = 30
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 9
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 9 remaining
+Prisoner: Prisoner#2 has 10 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 30 newScore = 30
+	Prisoner#2: oldScore = 50 newScore = 55
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 9
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 9 remaining
+Prisoner: Prisoner#3 has 10 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 55 newScore = 60
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 9
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 9 remaining
+Prisoner: Prisoner#4 has 10 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 40 newScore = 45
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 9
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 9 remaining
+Prisoner: Prisoner#5 has 10 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 45 newScore = 48
+	Prisoner#5: oldScore = 20 newScore = 23
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 9
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 9 remaining
+Prisoner: Prisoner#6 has 9 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 23 newScore = 24
+	Prisoner#6: oldScore = 11 newScore = 12
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 8
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Retry for Prisoner#7 #4
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 8 remaining
+Prisoner: Prisoner#8 has 8 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 12 newScore = 13
+	Prisoner#8: oldScore = 36 newScore = 37
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 7
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 7 remaining
+Prisoner: Prisoner#9 has 8 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 37 newScore = 42
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 7
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 7 remaining
+Prisoner: Prisoner#10 has 8 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 36 newScore = 41
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 7
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 7 remaining
+Prisoner: Prisoner#11 has 8 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 41 newScore = 42
+	Prisoner#11: oldScore = 12 newScore = 13
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 7
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 7 remaining
+Prisoner: Prisoner#12 has 8 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 13 newScore = 14
+	Prisoner#12: oldScore = 24 newScore = 25
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 7
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 7 remaining
+Prisoner: Prisoner#13 has 8 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 25 newScore = 28
+	Prisoner#13: oldScore = 24 newScore = 27
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 7
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 7 remaining
+Prisoner: Prisoner#14 has 8 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 27 newScore = 28
+	Prisoner#14: oldScore = 24 newScore = 25
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 7
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 7 remaining
+Prisoner: Prisoner#15 has 8 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 25 newScore = 28
+	Prisoner#15: oldScore = 48 newScore = 51
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 7
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 7 remaining
+Prisoner: Prisoner#16 has 8 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 51 newScore = 56
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 7
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 7 remaining
+Prisoner: Prisoner#1 has 8 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 30 newScore = 35
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 7
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 7 remaining
+Prisoner: Prisoner#2 has 8 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 35 newScore = 35
+	Prisoner#2: oldScore = 60 newScore = 65
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 7
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 7 remaining
+Prisoner: Prisoner#3 has 8 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 65 newScore = 70
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 7
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 7 remaining
+Prisoner: Prisoner#4 has 8 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 48 newScore = 53
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 7
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 7 remaining
+Prisoner: Prisoner#5 has 8 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 53 newScore = 56
+	Prisoner#5: oldScore = 24 newScore = 27
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 7
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 7 remaining
+Prisoner: Prisoner#6 has 8 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 27 newScore = 28
+	Prisoner#6: oldScore = 12 newScore = 13
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 7
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 7 remaining
+Prisoner: Prisoner#7 has 7 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 13 newScore = 14
+	Prisoner#7: oldScore = 13 newScore = 14
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 6
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Retry for Prisoner#8 #4
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 6 remaining
+Prisoner: Prisoner#9 has 6 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 42 newScore = 47
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 5
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 5 remaining
+Prisoner: Prisoner#10 has 6 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 42 newScore = 47
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 5
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 5 remaining
+Prisoner: Prisoner#11 has 6 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 47 newScore = 48
+	Prisoner#11: oldScore = 14 newScore = 15
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 5
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 5 remaining
+Prisoner: Prisoner#12 has 6 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 15 newScore = 16
+	Prisoner#12: oldScore = 28 newScore = 29
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 5
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 5 remaining
+Prisoner: Prisoner#13 has 6 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 29 newScore = 32
+	Prisoner#13: oldScore = 28 newScore = 31
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 5
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 5 remaining
+Prisoner: Prisoner#14 has 6 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 31 newScore = 32
+	Prisoner#14: oldScore = 28 newScore = 29
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 5
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 5 remaining
+Prisoner: Prisoner#15 has 6 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 29 newScore = 32
+	Prisoner#15: oldScore = 56 newScore = 59
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 5
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 5 remaining
+Prisoner: Prisoner#16 has 6 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 59 newScore = 64
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 5
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 5 remaining
+Prisoner: Prisoner#1 has 6 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 35 newScore = 40
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 5
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 5 remaining
+Prisoner: Prisoner#2 has 6 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 40 newScore = 40
+	Prisoner#2: oldScore = 70 newScore = 75
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 5
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 5 remaining
+Prisoner: Prisoner#3 has 6 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 75 newScore = 80
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 5
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 5 remaining
+Prisoner: Prisoner#4 has 6 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 56 newScore = 61
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 5
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 5 remaining
+Prisoner: Prisoner#5 has 6 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 61 newScore = 64
+	Prisoner#5: oldScore = 28 newScore = 31
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 5
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 5 remaining
+Prisoner: Prisoner#6 has 6 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 31 newScore = 32
+	Prisoner#6: oldScore = 14 newScore = 15
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 5
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 5 remaining
+Prisoner: Prisoner#7 has 6 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 15 newScore = 16
+	Prisoner#7: oldScore = 14 newScore = 15
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 5
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 5 remaining
+Prisoner: Prisoner#8 has 5 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 15 newScore = 16
+	Prisoner#8: oldScore = 47 newScore = 48
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 4
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Retry for Prisoner#9 #4
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 4 remaining
+Prisoner: Prisoner#10 has 4 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 48 newScore = 53
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 3
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 3 remaining
+Prisoner: Prisoner#11 has 4 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 53 newScore = 54
+	Prisoner#11: oldScore = 16 newScore = 17
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 3
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 3 remaining
+Prisoner: Prisoner#12 has 4 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 17 newScore = 18
+	Prisoner#12: oldScore = 32 newScore = 33
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 3
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 3 remaining
+Prisoner: Prisoner#13 has 4 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 33 newScore = 36
+	Prisoner#13: oldScore = 32 newScore = 35
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 3
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 3 remaining
+Prisoner: Prisoner#14 has 4 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 35 newScore = 36
+	Prisoner#14: oldScore = 32 newScore = 33
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 3
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 3 remaining
+Prisoner: Prisoner#15 has 4 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 33 newScore = 36
+	Prisoner#15: oldScore = 64 newScore = 67
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 3
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 3 remaining
+Prisoner: Prisoner#16 has 4 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 67 newScore = 72
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 3
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 3 remaining
+Prisoner: Prisoner#1 has 4 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 40 newScore = 45
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 3
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 3 remaining
+Prisoner: Prisoner#2 has 4 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 45 newScore = 45
+	Prisoner#2: oldScore = 80 newScore = 85
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 3
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 3 remaining
+Prisoner: Prisoner#3 has 4 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 85 newScore = 90
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 3
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 3 remaining
+Prisoner: Prisoner#4 has 4 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 64 newScore = 69
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 3
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 3 remaining
+Prisoner: Prisoner#5 has 4 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 69 newScore = 72
+	Prisoner#5: oldScore = 32 newScore = 35
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 3
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 3 remaining
+Prisoner: Prisoner#6 has 4 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 35 newScore = 36
+	Prisoner#6: oldScore = 16 newScore = 17
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 3
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 3 remaining
+Prisoner: Prisoner#7 has 4 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 17 newScore = 18
+	Prisoner#7: oldScore = 16 newScore = 17
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 3
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 3 remaining
+Prisoner: Prisoner#8 has 4 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 17 newScore = 18
+	Prisoner#8: oldScore = 48 newScore = 49
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 3
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 3 remaining
+Prisoner: Prisoner#9 has 3 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 49 newScore = 54
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 2
+Prisoner: Prisoner#10 is asking for partner!
+Free agents before hooking up by Prisoner#10 = 16 Booked agents before hooking up by Prisoner#10 = 0
+Retry for Prisoner#10 #5
+Retry for Prisoner#10 #4
+Agents Prisoner#10 and  Prisoner#11 have hooked up.
+Free agents after hookingup by Prisoner#10 = 14 Booked agents before hooking up by Prisoner#10 = 2
+Prisoner: Prisoner#10 is playing PD with Prisoner: Prisoner#11
+Prisoner: Prisoner#10 has 2 remaining
+Prisoner: Prisoner#11 has 2 remaining
+Prisoner: Prisoner#10 has DEFECT
+Prisoner: Prisoner#11 has DEFECT
+Both the prisoners Prisoner#10 and Prisoner#11 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#10: oldScore = 54 newScore = 55
+	Prisoner#11: oldScore = 18 newScore = 19
+Free agents before drop by Prisoner#10 = 14 Booked agents before drop by Prisoner#10 = 2
+Free agents after drop by Prisoner#10 = 16 Booked agents after drop by Prisoner#10 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 1
+Prisoner: Prisoner#11 is asking for partner!
+Free agents before hooking up by Prisoner#11 = 16 Booked agents before hooking up by Prisoner#11 = 0
+Retry for Prisoner#11 #5
+Agents Prisoner#11 and  Prisoner#12 have hooked up.
+Free agents after hookingup by Prisoner#11 = 14 Booked agents before hooking up by Prisoner#11 = 2
+Prisoner: Prisoner#11 is playing PD with Prisoner: Prisoner#12
+Prisoner: Prisoner#11 has 1 remaining
+Prisoner: Prisoner#12 has 2 remaining
+Prisoner: Prisoner#11 has DEFECT
+Prisoner: Prisoner#12 has DEFECT
+Both the prisoners Prisoner#11 and Prisoner#12 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#11: oldScore = 19 newScore = 20
+	Prisoner#12: oldScore = 36 newScore = 37
+Free agents before drop by Prisoner#11 = 14 Booked agents before drop by Prisoner#11 = 2
+Free agents after drop by Prisoner#11 = 16 Booked agents after drop by Prisoner#11 = 0
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 1
+Prisoner: Prisoner#12 is asking for partner!
+Free agents before hooking up by Prisoner#12 = 16 Booked agents before hooking up by Prisoner#12 = 0
+Retry for Prisoner#12 #5
+Agents Prisoner#12 and  Prisoner#13 have hooked up.
+Free agents after hookingup by Prisoner#12 = 14 Booked agents before hooking up by Prisoner#12 = 2
+Prisoner: Prisoner#12 is playing PD with Prisoner: Prisoner#13
+Prisoner: Prisoner#12 has 1 remaining
+Prisoner: Prisoner#13 has 2 remaining
+Prisoner: Prisoner#12 has COOPERATE
+Prisoner: Prisoner#13 has COOPERATE
+Both the prisoners Prisoner#12 and Prisoner#13 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#12: oldScore = 37 newScore = 40
+	Prisoner#13: oldScore = 36 newScore = 39
+Free agents before drop by Prisoner#12 = 14 Booked agents before drop by Prisoner#12 = 2
+Free agents after drop by Prisoner#12 = 16 Booked agents after drop by Prisoner#12 = 0
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 1
+Prisoner: Prisoner#13 is asking for partner!
+Free agents before hooking up by Prisoner#13 = 16 Booked agents before hooking up by Prisoner#13 = 0
+Retry for Prisoner#13 #5
+Agents Prisoner#13 and  Prisoner#14 have hooked up.
+Free agents after hookingup by Prisoner#13 = 14 Booked agents before hooking up by Prisoner#13 = 2
+Prisoner: Prisoner#13 is playing PD with Prisoner: Prisoner#14
+Prisoner: Prisoner#13 has 1 remaining
+Prisoner: Prisoner#14 has 2 remaining
+Prisoner: Prisoner#13 has DEFECT
+Prisoner: Prisoner#14 has DEFECT
+Both the prisoners Prisoner#13 and Prisoner#14 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#13: oldScore = 39 newScore = 40
+	Prisoner#14: oldScore = 36 newScore = 37
+Free agents before drop by Prisoner#13 = 14 Booked agents before drop by Prisoner#13 = 2
+Free agents after drop by Prisoner#13 = 16 Booked agents after drop by Prisoner#13 = 0
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 1
+Prisoner: Prisoner#14 is asking for partner!
+Free agents before hooking up by Prisoner#14 = 16 Booked agents before hooking up by Prisoner#14 = 0
+Retry for Prisoner#14 #5
+Agents Prisoner#14 and  Prisoner#15 have hooked up.
+Free agents after hookingup by Prisoner#14 = 14 Booked agents before hooking up by Prisoner#14 = 2
+Prisoner: Prisoner#14 is playing PD with Prisoner: Prisoner#15
+Prisoner: Prisoner#14 has 1 remaining
+Prisoner: Prisoner#15 has 2 remaining
+Prisoner: Prisoner#14 has COOPERATE
+Prisoner: Prisoner#15 has COOPERATE
+Both the prisoners Prisoner#14 and Prisoner#15 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#14: oldScore = 37 newScore = 40
+	Prisoner#15: oldScore = 72 newScore = 75
+Free agents before drop by Prisoner#14 = 14 Booked agents before drop by Prisoner#14 = 2
+Free agents after drop by Prisoner#14 = 16 Booked agents after drop by Prisoner#14 = 0
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 1
+Prisoner: Prisoner#15 is asking for partner!
+Free agents before hooking up by Prisoner#15 = 16 Booked agents before hooking up by Prisoner#15 = 0
+Retry for Prisoner#15 #5
+Agents Prisoner#15 and  Prisoner#16 have hooked up.
+Free agents after hookingup by Prisoner#15 = 14 Booked agents before hooking up by Prisoner#15 = 2
+Prisoner: Prisoner#15 is playing PD with Prisoner: Prisoner#16
+Prisoner: Prisoner#15 has 1 remaining
+Prisoner: Prisoner#16 has 2 remaining
+Prisoner: Prisoner#15 has DEFECT
+Prisoner: Prisoner#16 has COOPERATE
+The prisoner Prisoner#15 has `DEFECT`ed and the prisoner Prisoner#16 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#15: oldScore = 75 newScore = 80
+	Prisoner#16: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#15 = 14 Booked agents before drop by Prisoner#15 = 2
+Free agents after drop by Prisoner#15 = 16 Booked agents after drop by Prisoner#15 = 0
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 1
+Prisoner: Prisoner#16 is asking for partner!
+Free agents before hooking up by Prisoner#16 = 16 Booked agents before hooking up by Prisoner#16 = 0
+Retry for Prisoner#16 #5
+Agents Prisoner#16 and  Prisoner#1 have hooked up.
+Free agents after hookingup by Prisoner#16 = 14 Booked agents before hooking up by Prisoner#16 = 2
+Prisoner: Prisoner#16 is playing PD with Prisoner: Prisoner#1
+Prisoner: Prisoner#16 has 1 remaining
+Prisoner: Prisoner#1 has 2 remaining
+Prisoner: Prisoner#16 has COOPERATE
+Prisoner: Prisoner#1 has DEFECT
+The prisoner Prisoner#16 has `COOPERATE`ed and the prisoner Prisoner#1 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#16: oldScore = 0 newScore = 0
+	Prisoner#1: oldScore = 45 newScore = 50
+Free agents before drop by Prisoner#16 = 14 Booked agents before drop by Prisoner#16 = 2
+Free agents after drop by Prisoner#16 = 16 Booked agents after drop by Prisoner#16 = 0
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 1
+Prisoner: Prisoner#1 is asking for partner!
+Free agents before hooking up by Prisoner#1 = 16 Booked agents before hooking up by Prisoner#1 = 0
+Retry for Prisoner#1 #5
+Agents Prisoner#1 and  Prisoner#2 have hooked up.
+Free agents after hookingup by Prisoner#1 = 14 Booked agents before hooking up by Prisoner#1 = 2
+Prisoner: Prisoner#1 is playing PD with Prisoner: Prisoner#2
+Prisoner: Prisoner#1 has 1 remaining
+Prisoner: Prisoner#2 has 2 remaining
+Prisoner: Prisoner#1 has COOPERATE
+Prisoner: Prisoner#2 has DEFECT
+The prisoner Prisoner#1 has `COOPERATE`ed and the prisoner Prisoner#2 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#1: oldScore = 50 newScore = 50
+	Prisoner#2: oldScore = 90 newScore = 95
+Free agents before drop by Prisoner#1 = 14 Booked agents before drop by Prisoner#1 = 2
+Free agents after drop by Prisoner#1 = 16 Booked agents after drop by Prisoner#1 = 0
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 1
+Prisoner: Prisoner#2 is asking for partner!
+Free agents before hooking up by Prisoner#2 = 16 Booked agents before hooking up by Prisoner#2 = 0
+Retry for Prisoner#2 #5
+Agents Prisoner#2 and  Prisoner#3 have hooked up.
+Free agents after hookingup by Prisoner#2 = 14 Booked agents before hooking up by Prisoner#2 = 2
+Prisoner: Prisoner#2 is playing PD with Prisoner: Prisoner#3
+Prisoner: Prisoner#2 has 1 remaining
+Prisoner: Prisoner#3 has 2 remaining
+Prisoner: Prisoner#2 has DEFECT
+Prisoner: Prisoner#3 has COOPERATE
+The prisoner Prisoner#2 has `DEFECT`ed and the prisoner Prisoner#3 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#2: oldScore = 95 newScore = 100
+	Prisoner#3: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#2 = 14 Booked agents before drop by Prisoner#2 = 2
+Free agents after drop by Prisoner#2 = 16 Booked agents after drop by Prisoner#2 = 0
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 1
+Prisoner: Prisoner#3 is asking for partner!
+Free agents before hooking up by Prisoner#3 = 16 Booked agents before hooking up by Prisoner#3 = 0
+Retry for Prisoner#3 #5
+Agents Prisoner#3 and  Prisoner#4 have hooked up.
+Free agents after hookingup by Prisoner#3 = 14 Booked agents before hooking up by Prisoner#3 = 2
+Prisoner: Prisoner#3 is playing PD with Prisoner: Prisoner#4
+Prisoner: Prisoner#3 has 1 remaining
+Prisoner: Prisoner#4 has 2 remaining
+Prisoner: Prisoner#3 has COOPERATE
+Prisoner: Prisoner#4 has DEFECT
+The prisoner Prisoner#3 has `COOPERATE`ed and the prisoner Prisoner#4 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#3: oldScore = 0 newScore = 0
+	Prisoner#4: oldScore = 72 newScore = 77
+Free agents before drop by Prisoner#3 = 14 Booked agents before drop by Prisoner#3 = 2
+Free agents after drop by Prisoner#3 = 16 Booked agents after drop by Prisoner#3 = 0
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 1
+Prisoner: Prisoner#4 is asking for partner!
+Free agents before hooking up by Prisoner#4 = 16 Booked agents before hooking up by Prisoner#4 = 0
+Retry for Prisoner#4 #5
+Agents Prisoner#4 and  Prisoner#5 have hooked up.
+Free agents after hookingup by Prisoner#4 = 14 Booked agents before hooking up by Prisoner#4 = 2
+Prisoner: Prisoner#4 is playing PD with Prisoner: Prisoner#5
+Prisoner: Prisoner#4 has 1 remaining
+Prisoner: Prisoner#5 has 2 remaining
+Prisoner: Prisoner#4 has COOPERATE
+Prisoner: Prisoner#5 has COOPERATE
+Both the prisoners Prisoner#4 and Prisoner#5 have chosen to COOPERATE, so they get 3 points each. So, scores:
+	Prisoner#4: oldScore = 77 newScore = 80
+	Prisoner#5: oldScore = 36 newScore = 39
+Free agents before drop by Prisoner#4 = 14 Booked agents before drop by Prisoner#4 = 2
+Free agents after drop by Prisoner#4 = 16 Booked agents after drop by Prisoner#4 = 0
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 1
+Prisoner: Prisoner#5 is asking for partner!
+Free agents before hooking up by Prisoner#5 = 16 Booked agents before hooking up by Prisoner#5 = 0
+Retry for Prisoner#5 #5
+Agents Prisoner#5 and  Prisoner#6 have hooked up.
+Free agents after hookingup by Prisoner#5 = 14 Booked agents before hooking up by Prisoner#5 = 2
+Prisoner: Prisoner#5 is playing PD with Prisoner: Prisoner#6
+Prisoner: Prisoner#5 has 1 remaining
+Prisoner: Prisoner#6 has 2 remaining
+Prisoner: Prisoner#5 has DEFECT
+Prisoner: Prisoner#6 has DEFECT
+Both the prisoners Prisoner#5 and Prisoner#6 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#5: oldScore = 39 newScore = 40
+	Prisoner#6: oldScore = 18 newScore = 19
+Free agents before drop by Prisoner#5 = 14 Booked agents before drop by Prisoner#5 = 2
+Free agents after drop by Prisoner#5 = 16 Booked agents after drop by Prisoner#5 = 0
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 1
+Prisoner: Prisoner#6 is asking for partner!
+Free agents before hooking up by Prisoner#6 = 16 Booked agents before hooking up by Prisoner#6 = 0
+Retry for Prisoner#6 #5
+Agents Prisoner#6 and  Prisoner#7 have hooked up.
+Free agents after hookingup by Prisoner#6 = 14 Booked agents before hooking up by Prisoner#6 = 2
+Prisoner: Prisoner#6 is playing PD with Prisoner: Prisoner#7
+Prisoner: Prisoner#6 has 1 remaining
+Prisoner: Prisoner#7 has 2 remaining
+Prisoner: Prisoner#6 has DEFECT
+Prisoner: Prisoner#7 has DEFECT
+Both the prisoners Prisoner#6 and Prisoner#7 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#6: oldScore = 19 newScore = 20
+	Prisoner#7: oldScore = 18 newScore = 19
+Free agents before drop by Prisoner#6 = 14 Booked agents before drop by Prisoner#6 = 2
+Free agents after drop by Prisoner#6 = 16 Booked agents after drop by Prisoner#6 = 0
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 1
+Prisoner: Prisoner#7 is asking for partner!
+Free agents before hooking up by Prisoner#7 = 16 Booked agents before hooking up by Prisoner#7 = 0
+Retry for Prisoner#7 #5
+Agents Prisoner#7 and  Prisoner#8 have hooked up.
+Free agents after hookingup by Prisoner#7 = 14 Booked agents before hooking up by Prisoner#7 = 2
+Prisoner: Prisoner#7 is playing PD with Prisoner: Prisoner#8
+Prisoner: Prisoner#7 has 1 remaining
+Prisoner: Prisoner#8 has 2 remaining
+Prisoner: Prisoner#7 has DEFECT
+Prisoner: Prisoner#8 has DEFECT
+Both the prisoners Prisoner#7 and Prisoner#8 have chosen to DEFECT, so they get 1 point each. So, scores:
+	Prisoner#7: oldScore = 19 newScore = 20
+	Prisoner#8: oldScore = 54 newScore = 55
+Free agents before drop by Prisoner#7 = 14 Booked agents before drop by Prisoner#7 = 2
+Free agents after drop by Prisoner#7 = 16 Booked agents after drop by Prisoner#7 = 0
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 1
+Prisoner: Prisoner#8 is asking for partner!
+Free agents before hooking up by Prisoner#8 = 16 Booked agents before hooking up by Prisoner#8 = 0
+Retry for Prisoner#8 #5
+Agents Prisoner#8 and  Prisoner#9 have hooked up.
+Free agents after hookingup by Prisoner#8 = 14 Booked agents before hooking up by Prisoner#8 = 2
+Prisoner: Prisoner#8 is playing PD with Prisoner: Prisoner#9
+Prisoner: Prisoner#8 has 1 remaining
+Prisoner: Prisoner#9 has 2 remaining
+Prisoner: Prisoner#8 has DEFECT
+Prisoner: Prisoner#9 has COOPERATE
+The prisoner Prisoner#8 has `DEFECT`ed and the prisoner Prisoner#9 has `COOPERATE`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#8: oldScore = 55 newScore = 60
+	Prisoner#9: oldScore = 0 newScore = 0
+Free agents before drop by Prisoner#8 = 14 Booked agents before drop by Prisoner#8 = 2
+Free agents after drop by Prisoner#8 = 16 Booked agents after drop by Prisoner#8 = 0
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 1
+Prisoner: Prisoner#9 is asking for partner!
+Free agents before hooking up by Prisoner#9 = 16 Booked agents before hooking up by Prisoner#9 = 0
+Retry for Prisoner#9 #5
+Agents Prisoner#9 and  Prisoner#10 have hooked up.
+Free agents after hookingup by Prisoner#9 = 14 Booked agents before hooking up by Prisoner#9 = 2
+Prisoner: Prisoner#9 is playing PD with Prisoner: Prisoner#10
+Prisoner: Prisoner#9 has 1 remaining
+Prisoner: Prisoner#10 has 1 remaining
+Prisoner: Prisoner#9 has COOPERATE
+Prisoner: Prisoner#10 has DEFECT
+The prisoner Prisoner#9 has `COOPERATE`ed and the prisoner Prisoner#10 has `DEFECT`ed , so defecter gets 5 points and the cooperater gets 0 points. So, scores:
+	Prisoner#9: oldScore = 0 newScore = 0
+	Prisoner#10: oldScore = 55 newScore = 60
+Free agents before drop by Prisoner#9 = 14 Booked agents before drop by Prisoner#9 = 2
+Free agents after drop by Prisoner#9 = 16 Booked agents after drop by Prisoner#9 = 0
+Prisoner#11 Ready
+Rounds remaining for Prisoner#11 = 0
+The agent Prisoner#11 is dead! T_T
+Prisoner#12 Ready
+Rounds remaining for Prisoner#12 = 0
+The agent Prisoner#12 is dead! T_T
+Prisoner#13 Ready
+Rounds remaining for Prisoner#13 = 0
+The agent Prisoner#13 is dead! T_T
+Prisoner#14 Ready
+Rounds remaining for Prisoner#14 = 0
+The agent Prisoner#14 is dead! T_T
+Prisoner#15 Ready
+Rounds remaining for Prisoner#15 = 0
+The agent Prisoner#15 is dead! T_T
+Prisoner#16 Ready
+Rounds remaining for Prisoner#16 = 0
+The agent Prisoner#16 is dead! T_T
+Prisoner#1 Ready
+Rounds remaining for Prisoner#1 = 0
+The agent Prisoner#1 is dead! T_T
+Prisoner#2 Ready
+Rounds remaining for Prisoner#2 = 0
+The agent Prisoner#2 is dead! T_T
+Prisoner#3 Ready
+Rounds remaining for Prisoner#3 = 0
+The agent Prisoner#3 is dead! T_T
+Prisoner#4 Ready
+Rounds remaining for Prisoner#4 = 0
+The agent Prisoner#4 is dead! T_T
+Prisoner#5 Ready
+Rounds remaining for Prisoner#5 = 0
+The agent Prisoner#5 is dead! T_T
+Prisoner#6 Ready
+Rounds remaining for Prisoner#6 = 0
+The agent Prisoner#6 is dead! T_T
+Prisoner#7 Ready
+Rounds remaining for Prisoner#7 = 0
+The agent Prisoner#7 is dead! T_T
+Prisoner#8 Ready
+Rounds remaining for Prisoner#8 = 0
+The agent Prisoner#8 is dead! T_T
+Prisoner#9 Ready
+Rounds remaining for Prisoner#9 = 0
+The agent Prisoner#9 is dead! T_T
+Prisoner#10 Ready
+Rounds remaining for Prisoner#10 = 0
+The agent Prisoner#10 is dead! T_T
+
+After the games with Rounds: 20
+Prisoner#11 final score = 20
+Prisoner#12 final score = 40
+Prisoner#13 final score = 40
+Prisoner#14 final score = 40
+Prisoner#15 final score = 80
+Prisoner#16 final score = 0
+Prisoner#1 final score = 50
+Prisoner#2 final score = 100
+Prisoner#3 final score = 0
+Prisoner#4 final score = 80
+Prisoner#5 final score = 40
+Prisoner#6 final score = 20
+Prisoner#7 final score = 20
+Prisoner#8 final score = 60
+Prisoner#9 final score = 0
+Prisoner#10 final score = 60
+Done!

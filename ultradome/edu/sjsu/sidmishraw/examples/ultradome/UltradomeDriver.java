@@ -452,8 +452,13 @@ public class UltradomeDriver {
 		}
 		
 		// default is multithreaded
-		ultradome.setMultiThread(false);
+		ultradome.setMultiThread(true);
 		
 		ultradome.start();
+		
+		ultradome.waitForMe();
+		
+		System.out.println();
+		System.out.println("Ultradome has finished the tournament");
 	}
 }

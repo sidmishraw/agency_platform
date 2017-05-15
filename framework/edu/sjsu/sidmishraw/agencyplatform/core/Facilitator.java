@@ -27,14 +27,16 @@ public final class Facilitator<T> implements Runnable {
 	
 	// the flag that says if the facilitator is single threaded
 	// or multi-threaded
-	private Boolean										multiThread		= true;
+	private Boolean																		multiThread				= true;
 	
 	// a queue holding the agents that are without partners and are waiting for
 	// partners
-	private volatile ConcurrentLinkedQueue<Agent<T>>	freeAgents		= new ConcurrentLinkedQueue<>();
+	private volatile ConcurrentLinkedQueue<Agent<T>>	freeAgents				= new ConcurrentLinkedQueue<>();
 	
 	// holds the agents that have a partner
-	private volatile ConcurrentLinkedQueue<Agent<T>>	bookedAgents	= new ConcurrentLinkedQueue<>();
+	private volatile ConcurrentLinkedQueue<Agent<T>>	bookedAgents			= new ConcurrentLinkedQueue<>();
+	
+	private Thread																		facilitatorThread	= null;
 	
 	/**
 	 * The parameter map holding all the necessary extra parameters specific to
@@ -46,7 +48,7 @@ public final class Facilitator<T> implements Runnable {
 	 * an instance
 	 * of Facilitator instead of subclass
 	 */
-	private volatile ConcurrentMap<String, Object>		parametersMap	= new ConcurrentHashMap<>();
+	private volatile ConcurrentMap<String, Object>		parametersMap			= new ConcurrentHashMap<>();
 	
 	/**
 	 * Facilitates the messaging between agents
@@ -60,13 +62,15 @@ public final class Facilitator<T> implements Runnable {
 		
 		if (null == partnerAgent || partnerAgent.getDead()) {
 			
-			System.out.println("No eligible partner to send a message, try again after hooking up");
+			System.out
+					.println("No eligible partner to send a message, try again after hooking up");
 			return;
 		}
 		
 		if (null != message) {
 			
-			System.out.println("Added a message from " + agent.getDescription() + " to " + partnerAgent.getDescription()
+			System.out.println("Added a message from " + agent.getDescription() + " to "
+					+ partnerAgent.getDescription()
 					+ "'s mailbox.");
 			
 			partnerAgent.getMailbox().add(message);
@@ -78,14 +82,16 @@ public final class Facilitator<T> implements Runnable {
 	 * Facilitator.
 	 * 
 	 * @param agent
-	 *            -- the requesting agent
+	 *          -- the requesting agent
 	 * 
 	 * @return {@link Agent}: The partner agent
 	 */
 	public final synchronized void getPartner(Agent<T> agent) {
 		
-		System.out.println("Free agents before hooking up by " + agent.getDescription() + " = " + this.freeAgents.size()
-				+ " Booked agents before hooking up by " + agent.getDescription() + " = " + this.bookedAgents.size());
+		System.out.println("Free agents before hooking up by " + agent.getDescription()
+				+ " = " + this.freeAgents.size()
+				+ " Booked agents before hooking up by " + agent.getDescription() + " = "
+				+ this.bookedAgents.size());
 		
 		if (null != agent.getPartner() || null == agent) {
 			
@@ -122,12 +128,14 @@ public final class Facilitator<T> implements Runnable {
 				// longer free and is booked
 				this.freeAgents.remove(agent);
 				
-				System.out.println("Agents " + agent.getDescription() + " and  " + wannabePartnerAgent.getDescription()
+				System.out.println("Agents " + agent.getDescription() + " and  "
+						+ wannabePartnerAgent.getDescription()
 						+ " have hooked up.");
 				
 				break;
 			} else if (null != wannabePartnerAgent
-					&& ((wannabePartnerAgent.equals(agent) && null == wannabePartnerAgent.getPartner())
+					&& ((wannabePartnerAgent.equals(agent)
+							&& null == wannabePartnerAgent.getPartner())
 							|| wannabePartnerAgent.getDead() || !wannabePartnerAgent.isReady())) {
 				
 				// put back the polled agent to the free pool
@@ -142,8 +150,10 @@ public final class Facilitator<T> implements Runnable {
 			retriesLeft--;
 		}
 		
-		System.out.println("Free agents after hookingup by " + agent.getDescription() + " = " + this.freeAgents.size()
-				+ " Booked agents before hooking up by " + agent.getDescription() + " = " + this.bookedAgents.size());
+		System.out.println("Free agents after hookingup by " + agent.getDescription() + " = "
+				+ this.freeAgents.size()
+				+ " Booked agents before hooking up by " + agent.getDescription() + " = "
+				+ this.bookedAgents.size());
 	}
 	
 	/**
@@ -153,8 +163,10 @@ public final class Facilitator<T> implements Runnable {
 	 */
 	public final synchronized void dropPartner(Agent<T> agent) {
 		
-		System.out.println("Free agents before drop by " + agent.getDescription() + " = " + this.freeAgents.size()
-				+ " Booked agents before drop by " + agent.getDescription() + " = " + this.bookedAgents.size());
+		System.out.println("Free agents before drop by " + agent.getDescription() + " = "
+				+ this.freeAgents.size()
+				+ " Booked agents before drop by " + agent.getDescription() + " = "
+				+ this.bookedAgents.size());
 		
 		Agent<T> prevPartner = agent.getPartner();
 		
@@ -184,8 +196,10 @@ public final class Facilitator<T> implements Runnable {
 		this.freeAgents.add(agent);
 		this.freeAgents.add(prevPartner);
 		
-		System.out.println("Free agents after drop by " + agent.getDescription() + " = " + this.freeAgents.size()
-				+ " Booked agents after drop by " + agent.getDescription() + " = " + this.bookedAgents.size());
+		System.out.println("Free agents after drop by " + agent.getDescription() + " = "
+				+ this.freeAgents.size()
+				+ " Booked agents after drop by " + agent.getDescription() + " = "
+				+ this.bookedAgents.size());
 	}
 	
 	/**
@@ -194,7 +208,7 @@ public final class Facilitator<T> implements Runnable {
 	 * the Facilitator.
 	 * 
 	 * @param agent
-	 *            {@link Agent}<T> -- T is the messagecontent class
+	 *          {@link Agent}<T> -- T is the messagecontent class
 	 * 
 	 * @throws IllegalAgentException
 	 */
@@ -220,7 +234,8 @@ public final class Facilitator<T> implements Runnable {
 			
 			if (multiThread) {
 				
-				new Thread(this).start();
+				this.facilitatorThread = new Thread(this);
+				this.facilitatorThread.start();
 			} else {
 				
 				this.singleThreadedRun();
@@ -332,7 +347,7 @@ public final class Facilitator<T> implements Runnable {
 	
 	/**
 	 * @param multiThread
-	 *            the multiThread to set
+	 *          the multiThread to set
 	 */
 	public void setMultiThread(Boolean multiThread) {
 		
@@ -349,7 +364,7 @@ public final class Facilitator<T> implements Runnable {
 	
 	/**
 	 * @param freeAgents
-	 *            the freeAgents to set
+	 *          the freeAgents to set
 	 */
 	public void setFreeAgents(ConcurrentLinkedQueue<Agent<T>> freeAgents) {
 		
@@ -366,7 +381,7 @@ public final class Facilitator<T> implements Runnable {
 	
 	/**
 	 * @param bookedAgents
-	 *            the bookedAgents to set
+	 *          the bookedAgents to set
 	 */
 	public void setBookedAgents(ConcurrentLinkedQueue<Agent<T>> bookedAgents) {
 		
@@ -415,8 +430,10 @@ public final class Facilitator<T> implements Runnable {
 		
 		List<Agent<T>> deadAgents = new ArrayList<>();
 		
-		this.freeAgents.stream().filter(agent -> agent.getDead()).forEach(agent -> deadAgents.add(agent));
-		this.bookedAgents.stream().filter(agent -> agent.getDead()).forEach(agent -> deadAgents.add(agent));
+		this.freeAgents.stream().filter(agent -> agent.getDead())
+				.forEach(agent -> deadAgents.add(agent));
+		this.bookedAgents.stream().filter(agent -> agent.getDead())
+				.forEach(agent -> deadAgents.add(agent));
 		
 		int totalAgentsSize = this.freeAgents.size() + this.bookedAgents.size();
 		
@@ -427,6 +444,23 @@ public final class Facilitator<T> implements Runnable {
 		} else {
 			
 			return false;
+		}
+	}
+	
+	/**
+	 * Waits for the facilitator to finish all its execution
+	 */
+	public void waitForMe() {
+		
+		try {
+			
+			if (null != this.facilitatorThread) {
+				
+				this.facilitatorThread.join();
+			}
+		} catch (InterruptedException e) {
+			
+			e.printStackTrace();
 		}
 	}
 }
