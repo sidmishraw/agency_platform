@@ -23,6 +23,18 @@ send a message to a partner, check for incoming messages, etc. (Be careful, most
 #### Message
 The message is just a generic wrapper containing contents.
 
+#### Changes implemented by me in the project:
+* Use of pluggable update logic in agent.
+* Use of parameter map to hold additional parameters (both attributes and behaviors) for Facilitator and Agent.
+* Composition of ShieldSkins rather than a decorator pattern in Ultradome.
+* Pluggable strike strategies for weapons, although other features like weapon name and description, ID need to be stored in the weapon object.
+
+I basically wanted to test the extent to which the pluggable pattern can be used without increasing the complexity while keeping the programming simple.
+From the look of this codebase, I believe the application programmer doesn't need to worry too much about subclassing but can instead think of adding features as new parameters to the agent/facilitator objects.
+This does give the programmer some expressive power at the cost of complexity. But I have seen this pattern of using annonymous object definitons being passed around in android programs, so I believe this should be acceptable.
+
+Furthermore, introduction of functional programming concepts like composition, does improve the expressibility of the scenario (just my opinion, I'd say a decorator function would be even better and the composition achieves just that).
+
 
 ### Examples:
 
@@ -47,3 +59,22 @@ The message is just a generic wrapper containing contents.
 	In 1980 Robert Axelrod used agent-based modeling to demonstrate how cooperative behavior in societies could have evolved. He created a society of N prisoner agents. Each prisoner perpetually interacts with randomly selected other prisoners by playing one game of Prisoner's Dilemma. Here's how it works: prisoner A sends prisoner B a message: "defect," or "cooperate". Before looking at the message, B sends A a defect or cooperate message. If both cooperated, then both earn 3 points. If both defected, then both earn 1 point. Otherwise, the defector wins 5 points and the cooperator gets nothing.
 
 	Prisoners have different strategies for deciding to defect or cooperate. For example: always defect or always cooperate are two strategies. As one would expect, defectors score much higher than cooperators. Tit-for-tat strategy says defect if the opponent defected on the last encounter, otherwise cooperate.
+	
+	
+	
+	
+### Steps for importing the project into Eclipse (4.5+) or Mars onwards:
+>Note: This project is heavily dependent on Java8 features and hence needs eclipse 4.5+ for better support.
+* Create a new Java Project in eclipse, then delete the generated `src` folder.
+* Copy the 3 folders `framework`, `prisonersdilemma` and `ultradome` from the zip file or repository clone directory and paste them in the project directory you created.
+* Select the 3 folders inside eclipse, right mouse click to show the context menu. Select `Build Path > Use as source folder` option from the menu.
+* The above step should add the `framework`, `prisonersdilemma` and `ultradome` to your classpath so that they can be executed.
+* The application drivers are PrisonersDilemmaDriver.java for Prisoners Dilemma simulation and UltradomeDriver.java for Ultradome simulation respectively.
+
+The project comes with 4 output files:
+ `op_multithreaded.txt` -- This file has the output of the UltradomeDriver.java (Ultradome simulation running in multi threaded mode) piped into it.
+ `op_singlethreaded.txt` -- This file has the output of the UltradomeDriver.java (Ultradome simulation running in single threaded mode) piped into it.
+ `pd_multithreaded.txt` -- This file has the output of the PrisonersDilemmaDriver.java (PrisonersDilemma simulation running in multi threaded mode) piped into it.
+ `pd_singlethreaded.txt` -- This file has the output of the PrisonersDilemmaDriver.java (PrisonersDilemma simulation running in single threaded mode) piped into it.
+ 
+#### Note: this project needs Java8+ because it heavily relies on lambdas and other Java8+ features. 
