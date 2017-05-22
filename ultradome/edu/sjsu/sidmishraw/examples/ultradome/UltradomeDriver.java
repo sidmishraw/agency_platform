@@ -452,7 +452,7 @@ public class UltradomeDriver {
 		}
 		
 		// default is multithreaded
-		ultradome.setMultiThread(true);
+		ultradome.setMultiThread(false);
 		
 		ultradome.start();
 		

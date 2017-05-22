@@ -1,204 +1,197 @@
-Facilatator started --- Multithreaded mode
-Gladitor: Gladiator#5 has luck = 6
-Gladitor: Gladiator#1 has luck = 30
-Applying new shield skin for gladiator: Gladiator#1
-Gladitor: Gladiator#3 has luck = 10
-Switched weapon for gladiator: Gladiator#3 to Hell Sword from hell >(|)< from Baby Sword
-Gladitor: Gladiator#4 has luck = 8
-Gladitor: Gladiator#2 has luck = 39
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#4
-Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#4 has luck = 14
-Switched weapon for gladiator: Gladiator#4 to Hell Sword from hell >(|)< from Baby Sword
-Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#4
-Gladiator: Gladiator#1 has added a new skin to the shield!
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#5
-Now gladiator: Gladiator#1 has 2 skins on his shield!
-Gladitor: Gladiator#4 has luck = 2
-Gladitor: Gladiator#1 has luck = 13
+Single threaded running facilitator
+Gladitor: Gladiator#1 has luck = 18
 Switched weapon for gladiator: Gladiator#1 to Hell Sword from hell >(|)< from Baby Sword
 Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#1
-Gladitor: Gladiator#3 has luck = 28
-Gladitor: Gladiator#1 has luck = 12
-Free agents before hooking up by Gladiator#2 = 5 Booked agents before hooking up by Gladiator#2 = 0
-Switched weapon for gladiator: Gladiator#1 to Angel's magic wand from hell }}----* from Hell Sword from hell >(|)<
-Applying new shield skin for gladiator: Gladiator#3
+Gladitor: Gladiator#2 has luck = 24
+Applying new shield skin for gladiator: Gladiator#2
+Gladiator: Gladiator#2 has added a new skin to the shield!
+Now gladiator: Gladiator#2 has 2 skins on his shield!
+Gladitor: Gladiator#3 has luck = 17
+Switched weapon for gladiator: Gladiator#3 to Hell Sword from hell >(|)< from Baby Sword
+Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#4 has luck = 5
 Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#4
-Gladitor: Gladiator#5 has luck = 30
-Gladitor: Gladiator#4 has luck = 26
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#1
-Gladitor: Gladiator#1 has luck = 0
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#1
-Gladitor: Gladiator#1 has luck = 24
+Gladitor: Gladiator#5 has luck = 0
+Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#5
+Gladitor: Gladiator#1 has luck = 26
 Applying new shield skin for gladiator: Gladiator#1
 Gladiator: Gladiator#1 has added a new skin to the shield!
-Now gladiator: Gladiator#1 has 3 skins on his shield!
-Retry for Gladiator#2 #5
-Gladitor: Gladiator#1 has luck = 1
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#1
-Now gladiator: Gladiator#3 has 2 skins on his shield!
-Applying new shield skin for gladiator: Gladiator#4
-Gladitor: Gladiator#3 has luck = 20
+Now gladiator: Gladiator#1 has 2 skins on his shield!
+Gladitor: Gladiator#2 has luck = 30
+Applying new shield skin for gladiator: Gladiator#2
+Gladiator: Gladiator#2 has added a new skin to the shield!
+Now gladiator: Gladiator#2 has 3 skins on his shield!
+Gladitor: Gladiator#3 has luck = 24
 Applying new shield skin for gladiator: Gladiator#3
 Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 3 skins on his shield!
-Gladitor: Gladiator#3 has luck = 34
+Now gladiator: Gladiator#3 has 2 skins on his shield!
+Gladitor: Gladiator#4 has luck = 17
+Switched weapon for gladiator: Gladiator#4 to Hell Sword from hell >(|)< from Baby Sword
+Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#4
+Gladitor: Gladiator#5 has luck = 30
 Applying new shield skin for gladiator: Gladiator#5
 Gladiator: Gladiator#5 has added a new skin to the shield!
 Now gladiator: Gladiator#5 has 2 skins on his shield!
-Gladitor: Gladiator#5 has luck = 38
+Gladitor: Gladiator#1 has luck = 28
+Applying new shield skin for gladiator: Gladiator#1
+Gladiator: Gladiator#1 has added a new skin to the shield!
+Now gladiator: Gladiator#1 has 3 skins on his shield!
+Gladitor: Gladiator#2 has luck = 27
+Applying new shield skin for gladiator: Gladiator#2
+Gladiator: Gladiator#2 has added a new skin to the shield!
+Now gladiator: Gladiator#2 has 4 skins on his shield!
+Gladitor: Gladiator#3 has luck = 27
+Applying new shield skin for gladiator: Gladiator#3
+Gladiator: Gladiator#3 has added a new skin to the shield!
+Now gladiator: Gladiator#3 has 3 skins on his shield!
+Gladitor: Gladiator#4 has luck = 30
+Applying new shield skin for gladiator: Gladiator#4
 Gladiator: Gladiator#4 has added a new skin to the shield!
 Now gladiator: Gladiator#4 has 2 skins on his shield!
-Gladitor: Gladiator#1 has luck = 33
-Agents Gladiator#2 and  Gladiator#1 have hooked up.
-Free agents after hookingup by Gladiator#2 = 3 Booked agents before hooking up by Gladiator#2 = 2
-Gladiator: Gladiator#2 is gonna fight with Gladiator#1
-Free agents before hooking up by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
-Gladiator: Gladiator#1 is gonna fight with Gladiator#2
-Gladitor: Gladiator#4 has luck = 35
-Free agents before hooking up by Gladiator#4 = 3 Booked agents before hooking up by Gladiator#4 = 2
-Retry for Gladiator#4 #5
-Agents Gladiator#4 and  Gladiator#3 have hooked up.
-Free agents after hookingup by Gladiator#4 = 1 Booked agents before hooking up by Gladiator#4 = 4
-Gladiator: Gladiator#4 is gonna fight with Gladiator#3
-Free agents before hooking up by Gladiator#5 = 1 Booked agents before hooking up by Gladiator#5 = 4
-Retry for Gladiator#5 #5
-Retry for Gladiator#5 #4
-Retry for Gladiator#5 #3
-Retry for Gladiator#5 #2
-Retry for Gladiator#5 #1
-Free agents after hookingup by Gladiator#5 = 1 Booked agents before hooking up by Gladiator#5 = 4
-Gladiator: Gladiator#5 is gonna fight with No one
-Free agents before drop by Gladiator#5 = 1 Booked agents before drop by Gladiator#5 = 4
-Gladitor: Gladiator#5 has luck = 24
-Applying new shield skin for gladiator: Gladiator#5
-Gladiator: Gladiator#5 has added a new skin to the shield!
-Now gladiator: Gladiator#5 has 3 skins on his shield!
-Gladitor: Gladiator#5 has luck = 29
-Applying new shield skin for gladiator: Gladiator#5
-Gladiator: Gladiator#5 has added a new skin to the shield!
-Now gladiator: Gladiator#5 has 4 skins on his shield!
-Gladitor: Gladiator#5 has luck = 38
-Free agents before hooking up by Gladiator#5 = 1 Booked agents before hooking up by Gladiator#5 = 4
-Retry for Gladiator#5 #5
-Retry for Gladiator#5 #4
-Retry for Gladiator#5 #3
-Retry for Gladiator#5 #2
-Retry for Gladiator#5 #1
-Free agents after hookingup by Gladiator#5 = 1 Booked agents before hooking up by Gladiator#5 = 4
-Gladiator: Gladiator#5 is gonna fight with No one
-Free agents before drop by Gladiator#5 = 1 Booked agents before drop by Gladiator#5 = 4
-Gladitor: Gladiator#5 has luck = 26
-Applying new shield skin for gladiator: Gladiator#5
-Gladiator: Gladiator#5 has added a new skin to the shield!
-Now gladiator: Gladiator#5 has 5 skins on his shield!
-Gladitor: Gladiator#5 has luck = 6
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#5
-Gladitor: Gladiator#5 has luck = 9
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#5
-Gladitor: Gladiator#5 has luck = 14
+Gladitor: Gladiator#5 has luck = 15
 Switched weapon for gladiator: Gladiator#5 to Angel's magic wand from hell }}----* from Baby Sword
 Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#5
-Added a message from Gladiator#2 to Gladiator#1's mailbox.
-Free agents before hooking up by Gladiator#3 = 1 Booked agents before hooking up by Gladiator#3 = 4
-Gladiator: Gladiator#3 is gonna fight with Gladiator#4
-Added a message from Gladiator#3 to Gladiator#4's mailbox.
-Strike sent by Gladiator#2, so dropping the partner Gladiator#1
-Free agents before drop by Gladiator#2 = 1 Booked agents before drop by Gladiator#2 = 4
-Free agents after drop by Gladiator#2 = 3 Booked agents after drop by Gladiator#2 = 2
-Gladitor: Gladiator#2 has luck = 0
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
-Gladitor: Gladiator#2 has luck = 36
-Gladitor: Gladiator#5 has luck = 11
-Strike sent by Gladiator#3, so dropping the partner Gladiator#4
-No eligible partner to send a message, try again after hooking up
-Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 31
+Gladitor: Gladiator#1 has luck = 29
+Applying new shield skin for gladiator: Gladiator#1
+Gladiator: Gladiator#1 has added a new skin to the shield!
+Now gladiator: Gladiator#1 has 4 skins on his shield!
+Gladitor: Gladiator#2 has luck = 22
+Applying new shield skin for gladiator: Gladiator#2
+Gladiator: Gladiator#2 has added a new skin to the shield!
+Now gladiator: Gladiator#2 has 5 skins on his shield!
+Gladitor: Gladiator#3 has luck = 36
 Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
 Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#5 have hooked up.
+Agents Gladiator#3 and  Gladiator#1 have hooked up.
 Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#5
+Gladiator: Gladiator#3 is gonna fight with Gladiator#1
+Added a message from Gladiator#3 to Gladiator#1's mailbox.
+Strike sent by Gladiator#3, so dropping the partner Gladiator#1
+Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
+Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
+Gladitor: Gladiator#4 has luck = 23
+Applying new shield skin for gladiator: Gladiator#4
+Gladiator: Gladiator#4 has added a new skin to the shield!
+Now gladiator: Gladiator#4 has 3 skins on his shield!
+Gladitor: Gladiator#5 has luck = 1
+Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#5
+Gladitor: Gladiator#2 has luck = 24
+Applying new shield skin for gladiator: Gladiator#2
+Gladiator: Gladiator#2 has added a new skin to the shield!
+Now gladiator: Gladiator#2 has 6 skins on his shield!
+Gladitor: Gladiator#4 has luck = 39
+Free agents before hooking up by Gladiator#4 = 5 Booked agents before hooking up by Gladiator#4 = 0
+Retry for Gladiator#4 #5
+Agents Gladiator#4 and  Gladiator#2 have hooked up.
+Free agents after hookingup by Gladiator#4 = 3 Booked agents before hooking up by Gladiator#4 = 2
+Gladiator: Gladiator#4 is gonna fight with Gladiator#2
+Added a message from Gladiator#4 to Gladiator#2's mailbox.
+Strike sent by Gladiator#4, so dropping the partner Gladiator#2
+Free agents before drop by Gladiator#4 = 3 Booked agents before drop by Gladiator#4 = 2
+Free agents after drop by Gladiator#4 = 5 Booked agents after drop by Gladiator#4 = 0
+Gladitor: Gladiator#5 has luck = 11
 Switched weapon for gladiator: Gladiator#5 to Angel's magic wand from hell }}----* from Angel's magic wand from hell }}----*
 Angel's magic wand from hell }}----* has been reclaimed by Ultradome from Gladiator: Gladiator#5
-No eligible partner to send a message, try again after hooking up
-Free agents before drop by Gladiator#4 = 3 Booked agents before drop by Gladiator#4 = 2
-Free agents before hooking up by Gladiator#2 = 3 Booked agents before hooking up by Gladiator#2 = 2
-Retry for Gladiator#2 #5
-Retry for Gladiator#2 #4
-Agents Gladiator#2 and  Gladiator#1 have hooked up.
-Free agents after hookingup by Gladiator#2 = 1 Booked agents before hooking up by Gladiator#2 = 4
-Gladiator: Gladiator#2 is gonna fight with Gladiator#1
-Gladitor: Gladiator#5 has luck = 28
-Added a message from Gladiator#3 to Gladiator#5's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#5
-Free agents before drop by Gladiator#3 = 1 Booked agents before drop by Gladiator#3 = 4
-Free agents after drop by Gladiator#3 = 3 Booked agents after drop by Gladiator#3 = 2
-Gladitor: Gladiator#3 has luck = 13
-Switched weapon for gladiator: Gladiator#3 to Poison wand from hell @-----# from Hell Sword from hell >(|)<
-Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 28
+Gladitor: Gladiator#3 has luck = 30
 Applying new shield skin for gladiator: Gladiator#3
 Gladiator: Gladiator#3 has added a new skin to the shield!
 Now gladiator: Gladiator#3 has 4 skins on his shield!
-Applying new shield skin for gladiator: Gladiator#5
-Gladitor: Gladiator#3 has luck = 7
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 8
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 13
-Switched weapon for gladiator: Gladiator#3 to Poison wand from hell @-----# from Poison wand from hell @-----#
-Poison wand from hell @-----# has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Added a message from Gladiator#2 to Gladiator#1's mailbox.
-Gladitor: Gladiator#3 has luck = 3
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladiator: Gladiator#5 has added a new skin to the shield!
-Gladitor: Gladiator#3 has luck = 22
+IRON SHIELD HAS REDUCED STRIKE from 1.5 to 0.99
+Default ShieldSkin has acted: reduced from oldStrength = 0.99 to newStrength = 0.98010004
+Reduced strike A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! from strength = 1.5 to strength =0.98010004
+Gladiator: Gladiator#1 has defended against A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! of strength = 0.98010004, new HP = 0.1989994
+Gladitor: Gladiator#1 has luck = 10
+Switched weapon for gladiator: Gladiator#1 to Angel's magic wand from hell }}----* from Hell Sword from hell >(|)<
+Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#5 has luck = 18
+Switched weapon for gladiator: Gladiator#5 to Poison wand from hell @-----# from Angel's magic wand from hell }}----*
+Angel's magic wand from hell }}----* has been reclaimed by Ultradome from Gladiator: Gladiator#5
+Gladitor: Gladiator#3 has luck = 27
 Applying new shield skin for gladiator: Gladiator#3
-Strike sent by Gladiator#2, so dropping the partner Gladiator#1
 Gladiator: Gladiator#3 has added a new skin to the shield!
 Now gladiator: Gladiator#3 has 5 skins on his shield!
-Now gladiator: Gladiator#5 has 6 skins on his shield!
-Gladitor: Gladiator#3 has luck = 0
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Free agents before drop by Gladiator#2 = 3 Booked agents before drop by Gladiator#2 = 2
-Gladitor: Gladiator#3 has luck = 15
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison wand from hell @-----#
-Poison wand from hell @-----# has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Free agents after drop by Gladiator#2 = 5 Booked agents after drop by Gladiator#2 = 0
-Gladitor: Gladiator#3 has luck = 32
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#4 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#4
+Gladitor: Gladiator#1 has luck = 32
+Free agents before hooking up by Gladiator#1 = 5 Booked agents before hooking up by Gladiator#1 = 0
+Retry for Gladiator#1 #5
+Agents Gladiator#1 and  Gladiator#5 have hooked up.
+Free agents after hookingup by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
+Gladiator: Gladiator#1 is gonna fight with Gladiator#5
+Added a message from Gladiator#1 to Gladiator#5's mailbox.
+Strike sent by Gladiator#1, so dropping the partner Gladiator#5
+Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
+Free agents after drop by Gladiator#1 = 5 Booked agents after drop by Gladiator#1 = 0
+Gladitor: Gladiator#4 has luck = 14
+Switched weapon for gladiator: Gladiator#4 to Poison wand from hell @-----# from Hell Sword from hell >(|)<
+Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#4
+IRON SHIELD HAS REDUCED STRIKE from 2.5 to 0.5875001
+IRON SHIELD HAS REDUCED STRIKE from 0.5875001 to 0.5875001
+Default ShieldSkin has acted: reduced from oldStrength = 0.5875001 to newStrength = 0.5816251
+Reduced strike A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! from strength = 2.5 to strength =0.5816251
+Gladiator: Gladiator#2 has defended against A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! of strength = 0.5816251, new HP = 4.183749
 Gladitor: Gladiator#2 has luck = 23
-Added a message from Gladiator#3 to Gladiator#4's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#4
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
 Applying new shield skin for gladiator: Gladiator#2
-Gladitor: Gladiator#3 has luck = 33
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#5 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#5
-Added a message from Gladiator#3 to Gladiator#5's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#5
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
 Gladiator: Gladiator#2 has added a new skin to the shield!
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Now gladiator: Gladiator#2 has 2 skins on his shield!
-Gladitor: Gladiator#3 has luck = 12
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#2 has luck = 21
-Gladitor: Gladiator#3 has luck = 0
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
+Now gladiator: Gladiator#2 has 7 skins on his shield!
+Gladitor: Gladiator#3 has luck = 10
+Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Hell Sword from hell >(|)<
+Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#4 has luck = 32
+Free agents before hooking up by Gladiator#4 = 5 Booked agents before hooking up by Gladiator#4 = 0
+Retry for Gladiator#4 #5
+Agents Gladiator#4 and  Gladiator#3 have hooked up.
+Free agents after hookingup by Gladiator#4 = 3 Booked agents before hooking up by Gladiator#4 = 2
+Gladiator: Gladiator#4 is gonna fight with Gladiator#3
+Added a message from Gladiator#4 to Gladiator#3's mailbox.
+Strike sent by Gladiator#4, so dropping the partner Gladiator#3
+Free agents before drop by Gladiator#4 = 3 Booked agents before drop by Gladiator#4 = 2
+Free agents after drop by Gladiator#4 = 5 Booked agents after drop by Gladiator#4 = 0
+Gladitor: Gladiator#2 has luck = 33
+Free agents before hooking up by Gladiator#2 = 5 Booked agents before hooking up by Gladiator#2 = 0
+Retry for Gladiator#2 #5
+Retry for Gladiator#2 #4
+Agents Gladiator#2 and  Gladiator#1 have hooked up.
+Free agents after hookingup by Gladiator#2 = 3 Booked agents before hooking up by Gladiator#2 = 2
+Gladiator: Gladiator#2 is gonna fight with Gladiator#1
+Added a message from Gladiator#2 to Gladiator#1's mailbox.
+Strike sent by Gladiator#2, so dropping the partner Gladiator#1
+Free agents before drop by Gladiator#2 = 3 Booked agents before drop by Gladiator#2 = 2
+Free agents after drop by Gladiator#2 = 5 Booked agents after drop by Gladiator#2 = 0
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.01
+Default ShieldSkin has acted: reduced from oldStrength = 0.01 to newStrength = 0.0099
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.0099
+Gladiator: Gladiator#1 has defended against Baby sword strike from hell!!! of strength = 0.0099, new HP = 0.19702931
+Gladitor: Gladiator#1 has luck = 10
+Switched weapon for gladiator: Gladiator#1 to Poison bomb from hell {%%} from Angel's magic wand from hell }}----*
+Angel's magic wand from hell }}----* has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Default ShieldSkin has acted: reduced from oldStrength = 1.12 to newStrength = 1.1088
+Reduced strike Magic from Angel's magic wand from hell }}----* behold! from strength = 1.12 to strength =1.1088
+Gladiator: Gladiator#5 has defended against Magic from Angel's magic wand from hell }}----* behold! of strength = 1.1088, new HP = -1.0880003
+Gladiator: Gladiator#5 has died with final HP of = -1.0880003
+The agent Gladiator#5 is dead! T_T
+Gladitor: Gladiator#4 has luck = 39
+Free agents before hooking up by Gladiator#4 = 5 Booked agents before hooking up by Gladiator#4 = 0
+Retry for Gladiator#4 #5
+Retry for Gladiator#4 #4
+Retry for Gladiator#4 #3
+Agents Gladiator#4 and  Gladiator#3 have hooked up.
+Free agents after hookingup by Gladiator#4 = 3 Booked agents before hooking up by Gladiator#4 = 2
+Gladiator: Gladiator#4 is gonna fight with Gladiator#3
+Added a message from Gladiator#4 to Gladiator#3's mailbox.
+Strike sent by Gladiator#4, so dropping the partner Gladiator#3
+Free agents before drop by Gladiator#4 = 3 Booked agents before drop by Gladiator#4 = 2
+Free agents after drop by Gladiator#4 = 5 Booked agents after drop by Gladiator#4 = 0
+MAGIC SHIELD HAS REDUCED STRIKE from 1.2 to 0.82128
+MAGIC SHIELD HAS REDUCED STRIKE from 0.82128 to 0.49728504
+CHEMICAL SHIELD HAS REDUCED STRIKE from 0.49728504 to 0.4216977
+Default ShieldSkin has acted: reduced from oldStrength = 0.4216977 to newStrength = 0.41748074
+Reduced strike Posion Magic with Poison wand from hell @-----# earns a bad reputation! from strength = 1.2 to strength =0.41748074
+Gladiator: Gladiator#3 has defended against Posion Magic with Poison wand from hell @-----# earns a bad reputation! of strength = 0.41748074, new HP = 5.8251925
+MAGIC SHIELD HAS REDUCED STRIKE from 3.0 to 2.5266
+MAGIC SHIELD HAS REDUCED STRIKE from 2.5266 to 1.9285537
+CHEMICAL SHIELD HAS REDUCED STRIKE from 1.9285537 to 0.7559931
+Default ShieldSkin has acted: reduced from oldStrength = 0.7559931 to newStrength = 0.7484332
+Reduced strike Posion Magic with Poison wand from hell @-----# earns a bad reputation! from strength = 3.0 to strength =0.7484332
+Gladiator: Gladiator#3 has defended against Posion Magic with Poison wand from hell @-----# earns a bad reputation! of strength = 0.7484332, new HP = 1.465425
 Gladitor: Gladiator#3 has luck = 31
 Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
 Retry for Gladiator#3 #5
@@ -209,218 +202,148 @@ Added a message from Gladiator#3 to Gladiator#2's mailbox.
 Strike sent by Gladiator#3, so dropping the partner Gladiator#2
 Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
 Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Applying new shield skin for gladiator: Gladiator#2
-Gladitor: Gladiator#3 has luck = 39
-Gladiator: Gladiator#2 has added a new skin to the shield!
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#1 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#1
-Added a message from Gladiator#3 to Gladiator#1's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#1
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 13
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 6
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 30
+CHEMICAL SHIELD HAS REDUCED STRIKE from 1.0 to 1.0
+CHEMICAL SHIELD HAS REDUCED STRIKE from 1.0 to 0.696
+Default ShieldSkin has acted: reduced from oldStrength = 0.696 to newStrength = 0.68904
+Reduced strike Poison bomb from hell {%%} BOMB! from strength = 1.0 to strength =0.68904
+Gladiator: Gladiator#2 has defended against Poison bomb from hell {%%} BOMB! of strength = 0.68904, new HP = 1.3009787
+Gladitor: Gladiator#2 has luck = 38
+Free agents before hooking up by Gladiator#2 = 5 Booked agents before hooking up by Gladiator#2 = 0
+Retry for Gladiator#2 #5
+Agents Gladiator#2 and  Gladiator#1 have hooked up.
+Free agents after hookingup by Gladiator#2 = 3 Booked agents before hooking up by Gladiator#2 = 2
+Gladiator: Gladiator#2 is gonna fight with Gladiator#1
+Added a message from Gladiator#2 to Gladiator#1's mailbox.
+Strike sent by Gladiator#2, so dropping the partner Gladiator#1
+Free agents before drop by Gladiator#2 = 3 Booked agents before drop by Gladiator#2 = 2
+Free agents after drop by Gladiator#2 = 5 Booked agents after drop by Gladiator#2 = 0
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0049
+Default ShieldSkin has acted: reduced from oldStrength = 0.0049 to newStrength = 0.004851
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.004851
+Gladiator: Gladiator#1 has defended against Baby sword strike from hell!!! of strength = 0.004851, new HP = 0.19607352
+Gladitor: Gladiator#1 has luck = 12
+Switched weapon for gladiator: Gladiator#1 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#4 has luck = 27
+Applying new shield skin for gladiator: Gladiator#4
+Gladiator: Gladiator#4 has added a new skin to the shield!
+Now gladiator: Gladiator#4 has 4 skins on his shield!
+Gladitor: Gladiator#3 has luck = 28
 Applying new shield skin for gladiator: Gladiator#3
 Gladiator: Gladiator#3 has added a new skin to the shield!
 Now gladiator: Gladiator#3 has 6 skins on his shield!
-Gladitor: Gladiator#3 has luck = 8
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 36
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#4 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#4
-Added a message from Gladiator#3 to Gladiator#4's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#4
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 37
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#5 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#5
-Added a message from Gladiator#3 to Gladiator#5's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#5
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 20
+Gladitor: Gladiator#2 has luck = 20
+Applying new shield skin for gladiator: Gladiator#2
+Gladiator: Gladiator#2 has added a new skin to the shield!
+Now gladiator: Gladiator#2 has 8 skins on his shield!
+Gladitor: Gladiator#1 has luck = 5
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Healing gladiator: Gladiator#1 by +1
+Medicine bowl now has 30 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#4 has luck = 39
+Free agents before hooking up by Gladiator#4 = 5 Booked agents before hooking up by Gladiator#4 = 0
+Retry for Gladiator#4 #5
+Retry for Gladiator#4 #4
+Retry for Gladiator#4 #3
+Agents Gladiator#4 and  Gladiator#3 have hooked up.
+Free agents after hookingup by Gladiator#4 = 3 Booked agents before hooking up by Gladiator#4 = 2
+Gladiator: Gladiator#4 is gonna fight with Gladiator#3
+Added a message from Gladiator#4 to Gladiator#3's mailbox.
+Strike sent by Gladiator#4, so dropping the partner Gladiator#3
+Free agents before drop by Gladiator#4 = 3 Booked agents before drop by Gladiator#4 = 2
+Free agents after drop by Gladiator#4 = 5 Booked agents after drop by Gladiator#4 = 0
+MAGIC SHIELD HAS REDUCED STRIKE from 2.1000001 to 1.6029301
+MAGIC SHIELD HAS REDUCED STRIKE from 1.6029301 to 1.6029301
+MAGIC SHIELD HAS REDUCED STRIKE from 1.6029301 to 0.97057414
+CHEMICAL SHIELD HAS REDUCED STRIKE from 0.97057414 to 0.97057414
+Default ShieldSkin has acted: reduced from oldStrength = 0.97057414 to newStrength = 0.9608684
+Reduced strike Posion Magic with Poison wand from hell @-----# earns a bad reputation! from strength = 2.1000001 to strength =0.9608684
+Gladiator: Gladiator#3 has defended against Posion Magic with Poison wand from hell @-----# earns a bad reputation! of strength = 0.9608684, new HP = 0.057344437
+Gladitor: Gladiator#3 has luck = 24
 Applying new shield skin for gladiator: Gladiator#3
 Gladiator: Gladiator#3 has added a new skin to the shield!
 Now gladiator: Gladiator#3 has 7 skins on his shield!
-Gladitor: Gladiator#3 has luck = 9
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Now gladiator: Gladiator#2 has 3 skins on his shield!
+Gladitor: Gladiator#2 has luck = 23
+Applying new shield skin for gladiator: Gladiator#2
+Gladiator: Gladiator#2 has added a new skin to the shield!
+Now gladiator: Gladiator#2 has 9 skins on his shield!
+Gladitor: Gladiator#1 has luck = 31
+Free agents before hooking up by Gladiator#1 = 5 Booked agents before hooking up by Gladiator#1 = 0
+Retry for Gladiator#1 #5
+Agents Gladiator#1 and  Gladiator#2 have hooked up.
+Free agents after hookingup by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
+Gladiator: Gladiator#1 is gonna fight with Gladiator#2
+Added a message from Gladiator#1 to Gladiator#2's mailbox.
+Strike sent by Gladiator#1, so dropping the partner Gladiator#2
+Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
+Free agents after drop by Gladiator#1 = 5 Booked agents after drop by Gladiator#1 = 0
+Gladitor: Gladiator#4 has luck = 23
+Applying new shield skin for gladiator: Gladiator#4
+Gladiator: Gladiator#4 has added a new skin to the shield!
+Now gladiator: Gladiator#4 has 5 skins on his shield!
+Gladitor: Gladiator#3 has luck = 19
+Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#1 has luck = 22
+Applying new shield skin for gladiator: Gladiator#1
+Gladiator: Gladiator#1 has added a new skin to the shield!
+Now gladiator: Gladiator#1 has 5 skins on his shield!
+CHEMICAL SHIELD HAS REDUCED STRIKE from 1.0 to 0.772
+CHEMICAL SHIELD HAS REDUCED STRIKE from 0.772 to 0.47864002
+Default ShieldSkin has acted: reduced from oldStrength = 0.47864002 to newStrength = 0.47385362
+Reduced strike Poison bomb from hell {%%} BOMB! from strength = 1.0 to strength =0.47385362
+Gladiator: Gladiator#2 has defended against Poison bomb from hell {%%} BOMB! of strength = 0.47385362, new HP = 0.6845052
+Gladitor: Gladiator#2 has luck = 6
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Medicine bowl now has 15 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#4 has luck = 13
+Switched weapon for gladiator: Gladiator#4 to Poison bomb from hell {%%} from Poison wand from hell @-----#
+Poison wand from hell @-----# has been reclaimed by Ultradome from Gladiator: Gladiator#4
+Gladitor: Gladiator#3 has luck = 17
+Switched weapon for gladiator: Gladiator#3 to FlameThrower of hell @@``~~~ from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#1 has luck = 28
+Applying new shield skin for gladiator: Gladiator#1
+Gladiator: Gladiator#1 has added a new skin to the shield!
+Now gladiator: Gladiator#1 has 6 skins on his shield!
+Gladitor: Gladiator#2 has luck = 11
+Switched weapon for gladiator: Gladiator#2 to FlameThrower of hell @@``~~~ from Baby Sword
+Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#4 has luck = 7
+Medicine bowl now has 30 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#4
 Gladitor: Gladiator#3 has luck = 23
 Applying new shield skin for gladiator: Gladiator#3
 Gladiator: Gladiator#3 has added a new skin to the shield!
 Now gladiator: Gladiator#3 has 8 skins on his shield!
-Gladitor: Gladiator#3 has luck = 10
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 6
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 13
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 15
-Switched weapon for gladiator: Gladiator#3 to FlameThrower of hell @@``~~~ from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 3
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 8
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 0
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 25
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 9 skins on his shield!
-Gladitor: Gladiator#3 has luck = 0
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 15
-Switched weapon for gladiator: Gladiator#3 to FlameThrower of hell @@``~~~ from FlameThrower of hell @@``~~~
-FlameThrower of hell @@``~~~ has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 7
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 10
-Switched weapon for gladiator: Gladiator#3 to Baby Sword from FlameThrower of hell @@``~~~
-FlameThrower of hell @@``~~~ has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 27
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 10 skins on his shield!
-Gladitor: Gladiator#3 has luck = 14
-Switched weapon for gladiator: Gladiator#3 to Baby Sword from Baby Sword
-Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 15
-Switched weapon for gladiator: Gladiator#3 to Baby Sword from Baby Sword
-Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 22
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 11 skins on his shield!
-Gladitor: Gladiator#3 has luck = 36
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#2 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#2
-Added a message from Gladiator#3 to Gladiator#2's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#2
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 23
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 12 skins on his shield!
-Gladitor: Gladiator#3 has luck = 2
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 3
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 5
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 15
-Switched weapon for gladiator: Gladiator#3 to Hell Sword from hell >(|)< from Baby Sword
-Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 15
-Switched weapon for gladiator: Gladiator#3 to Baby Sword from Hell Sword from hell >(|)<
-Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 22
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 13 skins on his shield!
-Gladitor: Gladiator#3 has luck = 17
-Switched weapon for gladiator: Gladiator#3 to Angel's magic wand from hell }}----* from Baby Sword
-Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 29
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 14 skins on his shield!
-Gladitor: Gladiator#3 has luck = 37
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#1 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#1
-Added a message from Gladiator#3 to Gladiator#1's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#1
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 17
-Switched weapon for gladiator: Gladiator#3 to Hell Sword from hell >(|)< from Angel's magic wand from hell }}----*
-Angel's magic wand from hell }}----* has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 36
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#4 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#4
-Added a message from Gladiator#3 to Gladiator#4's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#4
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 11
-Switched weapon for gladiator: Gladiator#3 to Poison wand from hell @-----# from Hell Sword from hell >(|)<
-Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 17
-Switched weapon for gladiator: Gladiator#3 to Poison wand from hell @-----# from Poison wand from hell @-----#
-Poison wand from hell @-----# has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 37
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#5 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#5
-Added a message from Gladiator#3 to Gladiator#5's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#5
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 24
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 15 skins on his shield!
-Gladitor: Gladiator#3 has luck = 20
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 16 skins on his shield!
-Gladitor: Gladiator#3 has luck = 3
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 29
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 17 skins on his shield!
-Gladitor: Gladiator#3 has luck = 38
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#2 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#2
-Added a message from Gladiator#3 to Gladiator#2's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#2
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 39
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#1 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#1
-Added a message from Gladiator#3 to Gladiator#1's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#1
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
+Gladitor: Gladiator#1 has luck = 13
+Switched weapon for gladiator: Gladiator#1 to Baby Sword from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#2 has luck = 5
+Medicine bowl now has 15 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#4 has luck = 15
+Switched weapon for gladiator: Gladiator#4 to Baby Sword from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#4
 Gladitor: Gladiator#3 has luck = 32
 Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
 Retry for Gladiator#3 #5
+Retry for Gladiator#3 #4
 Agents Gladiator#3 and  Gladiator#4 have hooked up.
 Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
 Gladiator: Gladiator#3 is gonna fight with Gladiator#4
@@ -428,205 +351,356 @@ Added a message from Gladiator#3 to Gladiator#4's mailbox.
 Strike sent by Gladiator#3, so dropping the partner Gladiator#4
 Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
 Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 29
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 18 skins on his shield!
-Gladitor: Gladiator#3 has luck = 25
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 19 skins on his shield!
+Gladitor: Gladiator#1 has luck = 31
+Free agents before hooking up by Gladiator#1 = 5 Booked agents before hooking up by Gladiator#1 = 0
+Retry for Gladiator#1 #5
+Retry for Gladiator#1 #4
+Agents Gladiator#1 and  Gladiator#2 have hooked up.
+Free agents after hookingup by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
+Gladiator: Gladiator#1 is gonna fight with Gladiator#2
+Added a message from Gladiator#1 to Gladiator#2's mailbox.
+Strike sent by Gladiator#1, so dropping the partner Gladiator#2
+Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
+Free agents after drop by Gladiator#1 = 5 Booked agents after drop by Gladiator#1 = 0
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0040499996
+IRON SHIELD HAS REDUCED STRIKE from 0.0040499996 to 0.0030172497
+Default ShieldSkin has acted: reduced from oldStrength = 0.0030172497 to newStrength = 0.0029870772
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.0029870772
+Gladiator: Gladiator#2 has defended against Baby sword strike from hell!!! of strength = 0.0029870772, new HP = 9.970129
+Gladitor: Gladiator#2 has luck = 21
+Applying new shield skin for gladiator: Gladiator#2
+Gladiator: Gladiator#2 has added a new skin to the shield!
+Now gladiator: Gladiator#2 has 10 skins on his shield!
 Gladitor: Gladiator#3 has luck = 10
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison wand from hell @-----#
-Poison wand from hell @-----# has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 14
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 10
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 34
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#5 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#5
-Added a message from Gladiator#3 to Gladiator#5's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#5
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 8
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 20
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 20 skins on his shield!
-Gladitor: Gladiator#3 has luck = 25
-Applying new shield skin for gladiator: Gladiator#3
-Gladiator: Gladiator#3 has added a new skin to the shield!
-Now gladiator: Gladiator#3 has 21 skins on his shield!
-Gladitor: Gladiator#3 has luck = 29
-Gladitor: Gladiator#3 has luck = 37
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#2 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#2
-Added a message from Gladiator#3 to Gladiator#2's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#2
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 7
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 13
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 37
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#1 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#1
-Added a message from Gladiator#3 to Gladiator#1's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#1
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 34
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#4 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#4
-Added a message from Gladiator#3 to Gladiator#4's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#4
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 6
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 37
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#5 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#5
-Added a message from Gladiator#3 to Gladiator#5's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#5
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 33
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#2 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#2
-Added a message from Gladiator#3 to Gladiator#2's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#2
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 16
-Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 10
-Switched weapon for gladiator: Gladiator#3 to FlameThrower of hell @@``~~~ from Poison bomb from hell {%%}
-Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 23
-Gladitor: Gladiator#3 has luck = 10
-Switched weapon for gladiator: Gladiator#3 to FlameThrower of hell @@``~~~ from FlameThrower of hell @@``~~~
-FlameThrower of hell @@``~~~ has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 5
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 17
 Switched weapon for gladiator: Gladiator#3 to Baby Sword from FlameThrower of hell @@``~~~
 FlameThrower of hell @@``~~~ has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 36
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#1 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#1
-Added a message from Gladiator#3 to Gladiator#1's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#1
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 26
-Gladitor: Gladiator#3 has luck = 37
-Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-Retry for Gladiator#3 #5
-Agents Gladiator#3 and  Gladiator#4 have hooked up.
-Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#4
-Added a message from Gladiator#3 to Gladiator#4's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#4
-Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
-Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
+CHEMICAL SHIELD HAS REDUCED STRIKE from 8.0 to 6.784
+Default ShieldSkin has acted: reduced from oldStrength = 6.784 to newStrength = 6.71616
+Reduced strike FlameThrower of hell @@``~~~, Burn baby BURNNN! from strength = 8.0 to strength =6.71616
+Gladiator: Gladiator#4 has defended against FlameThrower of hell @@``~~~, Burn baby BURNNN! of strength = 6.71616, new HP = -57.1616
+Gladiator: Gladiator#4 has died with final HP of = -57.1616
+The agent Gladiator#4 is dead! T_T
+Gladitor: Gladiator#1 has luck = 28
+Applying new shield skin for gladiator: Gladiator#1
+Gladiator: Gladiator#1 has added a new skin to the shield!
+Now gladiator: Gladiator#1 has 7 skins on his shield!
+Gladitor: Gladiator#2 has luck = 3
+Healing gladiator: Gladiator#2 by +1
+Medicine bowl now has 29 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
 Gladitor: Gladiator#3 has luck = 12
 Switched weapon for gladiator: Gladiator#3 to Baby Sword from Baby Sword
 Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#1 has luck = 32
+Free agents before hooking up by Gladiator#1 = 5 Booked agents before hooking up by Gladiator#1 = 0
+Retry for Gladiator#1 #5
+Retry for Gladiator#1 #4
+Agents Gladiator#1 and  Gladiator#3 have hooked up.
+Free agents after hookingup by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
+Gladiator: Gladiator#1 is gonna fight with Gladiator#3
+Added a message from Gladiator#1 to Gladiator#3's mailbox.
+Strike sent by Gladiator#1, so dropping the partner Gladiator#3
+Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
+Free agents after drop by Gladiator#1 = 5 Booked agents after drop by Gladiator#1 = 0
+Gladitor: Gladiator#2 has luck = 14
+Switched weapon for gladiator: Gladiator#2 to Angel's magic wand from hell }}----* from FlameThrower of hell @@``~~~
+FlameThrower of hell @@``~~~ has been reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#2 has luck = 9
+Medicine bowl now has 15 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#1 has luck = 15
+Switched weapon for gladiator: Gladiator#1 to Hell Sword from hell >(|)< from Baby Sword
+Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#1
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0023500002
+Default ShieldSkin has acted: reduced from oldStrength = 0.0023500002 to newStrength = 0.0023265001
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.0023265001
+Gladiator: Gladiator#3 has defended against Baby sword strike from hell!!! of strength = 0.0023265001, new HP = 0.057211027
+Gladitor: Gladiator#3 has luck = 28
+Applying new shield skin for gladiator: Gladiator#3
+Gladiator: Gladiator#3 has added a new skin to the shield!
+Now gladiator: Gladiator#3 has 9 skins on his shield!
+Gladitor: Gladiator#2 has luck = 6
+Medicine bowl now has 29 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#1 has luck = 38
+Free agents before hooking up by Gladiator#1 = 5 Booked agents before hooking up by Gladiator#1 = 0
+Retry for Gladiator#1 #5
+Retry for Gladiator#1 #4
+Agents Gladiator#1 and  Gladiator#2 have hooked up.
+Free agents after hookingup by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
+Gladiator: Gladiator#1 is gonna fight with Gladiator#2
+Added a message from Gladiator#1 to Gladiator#2's mailbox.
+Strike sent by Gladiator#1, so dropping the partner Gladiator#2
+Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
+Free agents after drop by Gladiator#1 = 5 Booked agents after drop by Gladiator#1 = 0
+Gladitor: Gladiator#3 has luck = 26
+Applying new shield skin for gladiator: Gladiator#3
+Gladiator: Gladiator#3 has added a new skin to the shield!
+Now gladiator: Gladiator#3 has 10 skins on his shield!
+Gladitor: Gladiator#3 has luck = 2
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Healing gladiator: Gladiator#3 by +1
+Medicine bowl now has 5 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#1 has luck = 16
+Switched weapon for gladiator: Gladiator#1 to Angel's magic wand from hell }}----* from Hell Sword from hell >(|)<
+Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#1
+FIRE SHIELD HAS REDUCED STRIKE from 0.5 to 0.45875
+IRON SHIELD HAS REDUCED STRIKE from 0.45875 to 0.30277503
+IRON SHIELD HAS REDUCED STRIKE from 0.30277503 to 0.122623876
+Default ShieldSkin has acted: reduced from oldStrength = 0.122623876 to newStrength = 0.12139764
+Reduced strike A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! from strength = 0.5 to strength =0.12139764
+Gladiator: Gladiator#2 has defended against A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! of strength = 0.12139764, new HP = 8.786024
+Gladitor: Gladiator#2 has luck = 2
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Medicine bowl now has 27 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#3 has luck = 39
+Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
+Retry for Gladiator#3 #5
+Retry for Gladiator#3 #4
+Retry for Gladiator#3 #3
+Retry for Gladiator#3 #2
+Agents Gladiator#3 and  Gladiator#1 have hooked up.
+Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
+Gladiator: Gladiator#3 is gonna fight with Gladiator#1
+Added a message from Gladiator#3 to Gladiator#1's mailbox.
+Strike sent by Gladiator#3, so dropping the partner Gladiator#1
+Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
+Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0066
+Default ShieldSkin has acted: reduced from oldStrength = 0.0066 to newStrength = 0.006534
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.006534
+Gladiator: Gladiator#1 has defended against Baby sword strike from hell!!! of strength = 0.006534, new HP = 9.93466
+Gladitor: Gladiator#1 has luck = 0
+Healing gladiator: Gladiator#1 by +1
+Medicine bowl now has 4 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#2 has luck = 13
+Switched weapon for gladiator: Gladiator#2 to Hell Sword from hell >(|)< from Angel's magic wand from hell }}----*
+Angel's magic wand from hell }}----* has been reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#2 has luck = 11
+Switched weapon for gladiator: Gladiator#2 to Hell Sword from hell >(|)< from Hell Sword from hell >(|)<
+Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#3 has luck = 23
+Applying new shield skin for gladiator: Gladiator#3
+Gladiator: Gladiator#3 has added a new skin to the shield!
+Now gladiator: Gladiator#3 has 11 skins on his shield!
+Gladitor: Gladiator#1 has luck = 21
+Gladitor: Gladiator#2 has luck = 39
+Free agents before hooking up by Gladiator#2 = 5 Booked agents before hooking up by Gladiator#2 = 0
+Retry for Gladiator#2 #5
+Retry for Gladiator#2 #4
+Retry for Gladiator#2 #3
+Retry for Gladiator#2 #2
+Agents Gladiator#2 and  Gladiator#3 have hooked up.
+Free agents after hookingup by Gladiator#2 = 3 Booked agents before hooking up by Gladiator#2 = 2
+Gladiator: Gladiator#2 is gonna fight with Gladiator#3
+Added a message from Gladiator#2 to Gladiator#3's mailbox.
+Strike sent by Gladiator#2, so dropping the partner Gladiator#3
+Free agents before drop by Gladiator#2 = 3 Booked agents before drop by Gladiator#2 = 2
+Free agents after drop by Gladiator#2 = 5 Booked agents after drop by Gladiator#2 = 0
+FIRE SHIELD HAS REDUCED STRIKE from 0.75 to 0.19312501
+FIRE SHIELD HAS REDUCED STRIKE from 0.19312501 to 0.09752813
+FIRE SHIELD HAS REDUCED STRIKE from 0.09752813 to 0.081435986
+FIRE SHIELD HAS REDUCED STRIKE from 0.081435986 to 0.074717514
+IRON SHIELD HAS REDUCED STRIKE from 0.074717514 to 0.062015537
+Default ShieldSkin has acted: reduced from oldStrength = 0.062015537 to newStrength = 0.06139538
+Reduced strike A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! from strength = 0.75 to strength =0.06139538
+Gladiator: Gladiator#3 has defended against A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! of strength = 0.06139538, new HP = 9.386046
 Gladitor: Gladiator#3 has luck = 31
 Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
-IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0031999997
 Retry for Gladiator#3 #5
-IRON SHIELD HAS REDUCED STRIKE from 0.0031999997 to 0.0029279997
-Agents Gladiator#3 and  Gladiator#5 have hooked up.
-Default ShieldSkin has acted: reduced from oldStrength = 0.0029279997 to newStrength = 0.0028987196
+Agents Gladiator#3 and  Gladiator#1 have hooked up.
 Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-Gladiator: Gladiator#3 is gonna fight with Gladiator#5
-Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.0028987196
-Gladiator: Gladiator#1 has defended against Baby sword strike from hell!!! of strength = 0.0028987196, new HP = 9.971013
-IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0083
-IRON SHIELD HAS REDUCED STRIKE from 0.0083 to 0.005478
-Default ShieldSkin has acted: reduced from oldStrength = 0.005478 to newStrength = 0.00542322
-Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.00542322
-Gladiator: Gladiator#1 has defended against Baby sword strike from hell!!! of strength = 0.00542322, new HP = 9.916938
-Default ShieldSkin has acted: reduced from oldStrength = 3.5 to newStrength = 3.465
-Reduced strike Poison bomb from hell {%%} BOMB! from strength = 3.5 to strength =3.465
-Added a message from Gladiator#3 to Gladiator#5's mailbox.
-Strike sent by Gladiator#3, so dropping the partner Gladiator#5
+Gladiator: Gladiator#3 is gonna fight with Gladiator#1
+Added a message from Gladiator#3 to Gladiator#1's mailbox.
+Strike sent by Gladiator#3, so dropping the partner Gladiator#1
 Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
 Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladitor: Gladiator#3 has luck = 4
-Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 17
-Switched weapon for gladiator: Gladiator#3 to Baby Sword from Baby Sword
-Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 19
-Switched weapon for gladiator: Gladiator#3 to Hell Sword from hell >(|)< from Baby Sword
-Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 27
-Gladitor: Gladiator#3 has luck = 5
-Medicine bowl now has 40 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
-Gladitor: Gladiator#3 has luck = 37
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0057499995
+Default ShieldSkin has acted: reduced from oldStrength = 0.0057499995 to newStrength = 0.0056924997
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.0056924997
+Gladiator: Gladiator#1 has defended against Baby sword strike from hell!!! of strength = 0.0056924997, new HP = 9.943075
+Gladitor: Gladiator#1 has luck = 15
+Switched weapon for gladiator: Gladiator#1 to Angel's magic wand from hell }}----* from Angel's magic wand from hell }}----*
+Angel's magic wand from hell }}----* has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#2 has luck = 30
+Gladitor: Gladiator#3 has luck = 0
+Healing gladiator: Gladiator#3 by +1
+Medicine bowl now has 26 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#1 has luck = 30
+Gladitor: Gladiator#2 has luck = 29
+Gladitor: Gladiator#3 has luck = 38
 Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
 Retry for Gladiator#3 #5
+Retry for Gladiator#3 #4
+Retry for Gladiator#3 #3
 Agents Gladiator#3 and  Gladiator#2 have hooked up.
-IRON SHIELD HAS REDUCED STRIKE from 1.75 to 1.4525
-Default ShieldSkin has acted: reduced from oldStrength = 1.4525 to newStrength = 1.4379749
-Reduced strike A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! from strength = 1.75 to strength =1.4379749
-Gladiator: Gladiator#5 has defended against A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! of strength = 1.4379749, new HP = -4.3797493
-Default ShieldSkin has acted: reduced from oldStrength = 3.5 to newStrength = 3.465
-Gladiator: Gladiator#5 has died with final HP of = -4.3797493
 Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
-The agent Gladiator#5 is dead! T_T
-Reduced strike Poison bomb from hell {%%} BOMB! from strength = 3.5 to strength =3.465
-Gladiator: Gladiator#2 has defended against Poison bomb from hell {%%} BOMB! of strength = 3.465, new HP = -24.649998
-IRON SHIELD HAS REDUCED STRIKE from 2.5 to 2.075
-Default ShieldSkin has acted: reduced from oldStrength = 2.075 to newStrength = 2.05425
-Gladiator: Gladiator#2 has died with final HP of = -24.649998
-The agent Gladiator#2 is dead! T_T
-Gladiator: Gladiator#1 has defended against Poison bomb from hell {%%} BOMB! of strength = 3.465, new HP = -24.445251
-Reduced strike A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! from strength = 2.5 to strength =2.05425
 Gladiator: Gladiator#3 is gonna fight with Gladiator#2
-Gladiator: Gladiator#4 has defended against A molten sword strike from hell with Hell Sword from hell >(|)<, deals dmg of both IRON and FIRE! of strength = 2.05425, new HP = -10.5425
-No eligible partner to send a message, try again after hooking up
+Added a message from Gladiator#3 to Gladiator#2's mailbox.
 Strike sent by Gladiator#3, so dropping the partner Gladiator#2
-Gladiator: Gladiator#4 has died with final HP of = -10.5425
-The agent Gladiator#4 is dead! T_T
 Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
 Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
-Gladiator: Gladiator#3 declares himself as the WINNER from hell $_$!
-Gladiator: Gladiator#3 has died with final HP of = 10.0
+Gladitor: Gladiator#1 has luck = 6
+Healing gladiator: Gladiator#1 by +1
+Medicine bowl now has 3 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#1 has luck = 14
+Switched weapon for gladiator: Gladiator#1 to Poison bomb from hell {%%} from Angel's magic wand from hell }}----*
+Angel's magic wand from hell }}----* has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#3 has luck = 2
+Medicine bowl now has 26 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0083
+IRON SHIELD HAS REDUCED STRIKE from 0.0083 to 0.0047725
+Default ShieldSkin has acted: reduced from oldStrength = 0.0047725 to newStrength = 0.004724775
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.004724775
+Gladiator: Gladiator#2 has defended against Baby sword strike from hell!!! of strength = 0.004724775, new HP = 9.952752
+Gladitor: Gladiator#2 has luck = 7
+Healing gladiator: Gladiator#2 by +1
+Medicine bowl now has 2 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#1 has luck = 27
+Gladitor: Gladiator#3 has luck = 3
+Medicine bowl now has 26 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#2 has luck = 20
+Gladitor: Gladiator#1 has luck = 6
+Medicine bowl now has 2 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#3 has luck = 33
+Free agents before hooking up by Gladiator#3 = 5 Booked agents before hooking up by Gladiator#3 = 0
+Retry for Gladiator#3 #5
+Agents Gladiator#3 and  Gladiator#1 have hooked up.
+Free agents after hookingup by Gladiator#3 = 3 Booked agents before hooking up by Gladiator#3 = 2
+Gladiator: Gladiator#3 is gonna fight with Gladiator#1
+Added a message from Gladiator#3 to Gladiator#1's mailbox.
+Strike sent by Gladiator#3, so dropping the partner Gladiator#1
+Free agents before drop by Gladiator#3 = 3 Booked agents before drop by Gladiator#3 = 2
+Free agents after drop by Gladiator#3 = 5 Booked agents after drop by Gladiator#3 = 0
+Gladitor: Gladiator#2 has luck = 29
+Gladitor: Gladiator#2 has luck = 16
+Switched weapon for gladiator: Gladiator#2 to Poison bomb from hell {%%} from Hell Sword from hell >(|)<
+Hell Sword from hell >(|)< has been reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#3 has luck = 14
+Switched weapon for gladiator: Gladiator#3 to Poison wand from hell @-----# from Baby Sword
+Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#3
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.0023500002
+Default ShieldSkin has acted: reduced from oldStrength = 0.0023500002 to newStrength = 0.0023265001
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.0023265001
+Gladiator: Gladiator#1 has defended against Baby sword strike from hell!!! of strength = 0.0023265001, new HP = 9.976735
+Gladitor: Gladiator#1 has luck = 9
+Healing gladiator: Gladiator#1 by +1
+Medicine bowl now has 25 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#2 has luck = 30
+Gladitor: Gladiator#3 has luck = 21
+Gladitor: Gladiator#1 has luck = 11
+Switched weapon for gladiator: Gladiator#1 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#2 has luck = 13
+Switched weapon for gladiator: Gladiator#2 to Baby Sword from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#3 has luck = 12
+Switched weapon for gladiator: Gladiator#3 to Poison bomb from hell {%%} from Poison wand from hell @-----#
+Poison wand from hell @-----# has been reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#1 has luck = 37
+Free agents before hooking up by Gladiator#1 = 5 Booked agents before hooking up by Gladiator#1 = 0
+Retry for Gladiator#1 #5
+Retry for Gladiator#1 #4
+Retry for Gladiator#1 #3
+Agents Gladiator#1 and  Gladiator#2 have hooked up.
+Free agents after hookingup by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
+Gladiator: Gladiator#1 is gonna fight with Gladiator#2
+Added a message from Gladiator#1 to Gladiator#2's mailbox.
+Strike sent by Gladiator#1, so dropping the partner Gladiator#2
+Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
+Free agents after drop by Gladiator#1 = 5 Booked agents after drop by Gladiator#1 = 0
+Gladitor: Gladiator#3 has luck = 8
+Medicine bowl now has 2 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#3
+Gladitor: Gladiator#1 has luck = 38
+Free agents before hooking up by Gladiator#1 = 5 Booked agents before hooking up by Gladiator#1 = 0
+Retry for Gladiator#1 #5
+Agents Gladiator#1 and  Gladiator#3 have hooked up.
+Free agents after hookingup by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
+Gladiator: Gladiator#1 is gonna fight with Gladiator#3
+Added a message from Gladiator#1 to Gladiator#3's mailbox.
+Strike sent by Gladiator#1, so dropping the partner Gladiator#3
+Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
+Free agents after drop by Gladiator#1 = 5 Booked agents after drop by Gladiator#1 = 0
+CHEMICAL SHIELD HAS REDUCED STRIKE from 0.5 to 0.19600001
+CHEMICAL SHIELD HAS REDUCED STRIKE from 0.19600001 to 0.19600001
+Default ShieldSkin has acted: reduced from oldStrength = 0.19600001 to newStrength = 0.19404002
+Reduced strike Poison bomb from hell {%%} BOMB! from strength = 0.5 to strength =0.19404002
+Gladiator: Gladiator#2 has defended against Poison bomb from hell {%%} BOMB! of strength = 0.19404002, new HP = 8.0596
+Gladitor: Gladiator#2 has luck = 6
+Healing gladiator: Gladiator#2 by +1
+Healing gladiator: Gladiator#2 by +1
+Medicine bowl now has 23 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#2 has luck = 32
+Free agents before hooking up by Gladiator#2 = 5 Booked agents before hooking up by Gladiator#2 = 0
+Retry for Gladiator#2 #5
+Retry for Gladiator#2 #4
+Retry for Gladiator#2 #3
+Retry for Gladiator#2 #2
+Agents Gladiator#2 and  Gladiator#1 have hooked up.
+Free agents after hookingup by Gladiator#2 = 3 Booked agents before hooking up by Gladiator#2 = 2
+Gladiator: Gladiator#2 is gonna fight with Gladiator#1
+Added a message from Gladiator#2 to Gladiator#1's mailbox.
+Strike sent by Gladiator#2, so dropping the partner Gladiator#1
+Free agents before drop by Gladiator#2 = 3 Booked agents before drop by Gladiator#2 = 2
+Free agents after drop by Gladiator#2 = 5 Booked agents after drop by Gladiator#2 = 0
+IRON SHIELD HAS REDUCED STRIKE from 0.01 to 0.00745
+Default ShieldSkin has acted: reduced from oldStrength = 0.00745 to newStrength = 0.0073754997
+Reduced strike Baby sword strike from hell!!! from strength = 0.01 to strength =0.0073754997
+Gladiator: Gladiator#1 has defended against Baby sword strike from hell!!! of strength = 0.0073754997, new HP = 9.926245
+Gladitor: Gladiator#1 has luck = 30
+CHEMICAL SHIELD HAS REDUCED STRIKE from 1.5 to 1.386
+Default ShieldSkin has acted: reduced from oldStrength = 1.386 to newStrength = 1.37214
+Reduced strike Poison bomb from hell {%%} BOMB! from strength = 1.5 to strength =1.37214
+Gladiator: Gladiator#3 has defended against Poison bomb from hell {%%} BOMB! of strength = 1.37214, new HP = -3.7214003
+Gladiator: Gladiator#3 has died with final HP of = -3.7214003
 The agent Gladiator#3 is dead! T_T
-Gladiator: Gladiator#1 has died with final HP of = -24.445251
+Gladitor: Gladiator#2 has luck = 6
+Medicine bowl now has 2 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#1 has luck = 10
+Switched weapon for gladiator: Gladiator#1 to Poison bomb from hell {%%} from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#2 has luck = 14
+Switched weapon for gladiator: Gladiator#2 to FlameThrower of hell @@``~~~ from Baby Sword
+Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#1 has luck = 14
+Switched weapon for gladiator: Gladiator#1 to Baby Sword from Poison bomb from hell {%%}
+Poison bomb from hell {%%} has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#2 has luck = 1
+Medicine bowl now has 23 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#1 has luck = 15
+Switched weapon for gladiator: Gladiator#1 to FlameThrower of hell @@``~~~ from Baby Sword
+Baby Sword has been reclaimed by Ultradome from Gladiator: Gladiator#1
+Gladitor: Gladiator#2 has luck = 9
+Medicine bowl now has 2 charges remaining and is reclaimed by Ultradome from Gladiator: Gladiator#2
+Gladitor: Gladiator#1 has luck = 38
+Free agents before hooking up by Gladiator#1 = 5 Booked agents before hooking up by Gladiator#1 = 0
+Retry for Gladiator#1 #5
+Retry for Gladiator#1 #4
+Retry for Gladiator#1 #3
+Retry for Gladiator#1 #2
+Agents Gladiator#1 and  Gladiator#2 have hooked up.
+Free agents after hookingup by Gladiator#1 = 3 Booked agents before hooking up by Gladiator#1 = 2
+Gladiator: Gladiator#1 is gonna fight with Gladiator#2
+Added a message from Gladiator#1 to Gladiator#2's mailbox.
+Strike sent by Gladiator#1, so dropping the partner Gladiator#2
+Free agents before drop by Gladiator#1 = 3 Booked agents before drop by Gladiator#1 = 2
+Free agents after drop by Gladiator#1 = 5 Booked agents after drop by Gladiator#1 = 0
+Gladitor: Gladiator#1 has luck = 21
+CHEMICAL SHIELD HAS REDUCED STRIKE from 6.4 to 3.4816003
+CHEMICAL SHIELD HAS REDUCED STRIKE from 3.4816003 to 2.6877954
+Default ShieldSkin has acted: reduced from oldStrength = 2.6877954 to newStrength = 2.6609175
+Reduced strike FlameThrower of hell @@``~~~, Burn baby BURNNN! from strength = 6.4 to strength =2.6609175
+Gladiator: Gladiator#2 has defended against FlameThrower of hell @@``~~~, Burn baby BURNNN! of strength = 2.6609175, new HP = -16.609175
+Gladiator: Gladiator#2 has died with final HP of = -16.609175
+The agent Gladiator#2 is dead! T_T
+Gladiator: Gladiator#1 declares himself as the WINNER from hell $_$!
+Gladiator: Gladiator#1 has died with final HP of = 9.926245
 The agent Gladiator#1 is dead! T_T
 
 Ultradome has finished the tournament

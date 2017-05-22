@@ -380,6 +380,13 @@ public class PrisonersDilemmaDriver {
 			// sets the update logic for the prisoner
 			prisoner.setUpdateLogic(() -> {
 				
+				if (prisoner.getFacilitator().amIAlone(prisoner)) {
+					
+					System.out.println(
+							"Prisoner: " + prisoner.getDescription() + " is the last agent standing!");
+					prisoner.halt();
+				}
+				
 				if (prisoner.isReady()) {
 					
 					System.out.println(prisoner.getDescription() + " Ready");
@@ -416,7 +423,7 @@ public class PrisonersDilemmaDriver {
 		}
 		
 		// for multithreading or single threaded mode of execution
-		society.setMultiThread(false);
+		society.setMultiThread(true);
 		society.start();
 		
 		// wait till everyone is done with their games
